@@ -1,0 +1,59 @@
+*{
+	border:1px solid black!important;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.main_row{
+	max-width: 1280px;
+	margin:auto;
+}
+.navbar-light .navbar-brand {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+.navbar-brand{
+	margin-top: 35px;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 140%;
+	color: #FFFFFF;
+	margin-right: 111px;
+	margin-bottom: 0;
+	padding: 0;
+}
+.navbar-brand:hover {
+    color: grey!important;
+}
+.navbar-nav{
+	margin-top: 39px;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.nav-link{
+	padding: 0!important;
+	margin-left:0!important;
+	margin-right:42px!important;
+}
+.navbar-collapse li{
+	margin-top: 4px;
+}
+#search_icon{
+	margin-top:-12px;
+}
+#nav-row{
+	background-color: #000A1D;
+}

@@ -1,2 +1,0 @@
-# prodavangard
-prodavangard
