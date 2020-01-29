@@ -156,7 +156,7 @@ body{
 	width: unset!important;
 }
 #carousel_main_page img{
-	height: 100%;
+	/*height: 100%;*/
 	width: auto!important;
 	margin: auto;
 }
