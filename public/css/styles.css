@@ -1516,6 +1516,12 @@ button:hover{
     font-size: 20px;
     color: #00234B;
 }
+#show_all_products_list{
+	margin-bottom: 70px;
+}
+.show_all_products_list_item{
+	margin-bottom: 20px;
+}
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 /* medium - display 2  */

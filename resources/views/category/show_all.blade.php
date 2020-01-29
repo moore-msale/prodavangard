@@ -60,10 +60,10 @@
 </div>
 
     </div>
-    <div class="col-9">
+    <div id="show_all_products_list" class="col-9">
       <div class="row">
         @foreach($data['products'] as $product)
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 show_all_products_list_item">
           <div class="catalog_element_wrapper">
             <div class="catalog_element">
               <div>
