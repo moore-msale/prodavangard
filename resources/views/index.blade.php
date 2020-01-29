@@ -85,6 +85,7 @@
                     <img src="./img/clock_1.svg" style="height: 37px">
                     <p>
                       с 11.00 до 17.00 пн - пт,
+                      <br>
                       c 11.00 до 14.00 суббота
                     </p>
                   </div> 
