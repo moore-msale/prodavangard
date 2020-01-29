@@ -38,4 +38,12 @@ class ProductController extends Controller
     public function part(Request $request){
         return view('coop.part')->with('product', '$product'); 
     }
+
+    public function search(Request $request){
+        $q = $request->q;
+        // $products = Product::all()->where('name','LIKE','%'.$q.'%')->orWhere('description','LIKE','%'.$q.'%');
+        $products = Product::where('name','LIKE','%'.$q.'%')->get();
+        return view('product.search_results')->with('products', $products); 
+
+    }
 }

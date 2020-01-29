@@ -49,9 +49,9 @@ body{
 #main{
 	/*height: 740px;*/
 	background-color: #000A1D;
-	background-image: url("../img/main_back.png");
-	background-repeat: no-repeat;
-    background-size: contain;
+	background-image: url("../img/page1_texture.png");
+	background-repeat: repeat-x;
+    background-size: auto;
 	margin: 0;
 }
 #first_page{
@@ -84,9 +84,9 @@ body{
     color: white!important;
     margin-top: 10px;
 	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 130%;
+	font-weight: 500;
+	font-size: 15px;
+	/*line-height: 130%;*/
 	/*text-align: center;*/
 	color: #FFFFFF;
 }
@@ -114,7 +114,7 @@ body{
 	font-size: 20px;
 	line-height: 140%;
 	color: #FFFFFF;
-	margin-right: 111px;
+	margin-right: 50px;
 	margin-bottom: 0;
 	padding: 0;
 }
@@ -135,6 +135,9 @@ body{
 	padding: 0!important;
 	margin-left:0!important;
 	margin-right:42px!important;
+}
+#outlets_btn_li a{
+	margin-right: 0!important;
 }
 #carousel_main_arrow_left{
 	/*margin-left: 230px;*/
@@ -388,12 +391,13 @@ body{
 	margin-bottom: 15px;
 }
 .third_page_text{
-    background-color: white;
+    /*background-color: white;*/
     padding-left: 10px;
     padding-right: 10px;
 
 }
-.third_page_text p:nth-child(2){
+
+/*.third_page_text p:nth-child(2){
 	font-family: Proxima Nova;
 	font-style: normal;
 	font-weight: normal;
@@ -402,7 +406,7 @@ body{
 	color: #000B1E;
 	max-width: 254px;
 	margin-bottom: 45px;
-}
+}*/
 #third_page_second_header{
 	font-family: Proxima Nova;
 	font-style: normal;
@@ -445,6 +449,8 @@ body{
 	display: block;
     margin: auto;
     padding-top: 24px;
+    min-height: 100px;
+    max-height: 100px;
 }
 .catalog_element button{
 	margin-top: 28px!important;
@@ -694,6 +700,7 @@ body{
 	/*height: 564px;*/
 	position: relative;
 	background-color: white;
+	padding-top: 70px;
 }
 #seventh_page_card {
 	
@@ -824,6 +831,7 @@ body{
 	/*margin-top: 76px;*/
 	margin-top: 20px;
 	margin-bottom: 60px;
+	min-height: 120px;
 }
 .carousel_feedback_item h5{
 	font-family: Proxima Nova;
@@ -934,9 +942,9 @@ body{
 	font-size: 20px;
 	line-height: 130%;
 	color: #000000;
-	margin-left: 40px;
-	margin-top: 118px;
-	margin-right: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
 
 }
 .catalog_element_9 p{
@@ -947,10 +955,20 @@ body{
 	line-height: 130%;
 	color: #000000;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
 	max-width: 250px;
-	margin-right: 40px;
+	margin-right: 20px;
 
+}
+.catalog_element_9 h3{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #00234B;
+    text-align: center;
+    margin-top: 20px;
 }
 #last_page{
 	/*height: 528px;*/
@@ -1131,15 +1149,16 @@ button:hover{
 	color: #FFFFFF;
 }
 #search_field{
-	width: 147px!important;
-    height: 41px!important;
+    max-width: 150px!important;
+    height: 38px!important;
     padding: 0!important;
-    background: #0C3D69;
     border-radius: 40px;
     border:none;
-	margin-right: 24px!important;
+	margin-right: 10px!important;
 	margin-top:-10px;
+	text-align: center;
 }
+
 #search_form input::-webkit-input-placeholder{
 	font-family: Proxima Nova;
 	font-style: normal;
@@ -1189,7 +1208,7 @@ button:hover{
 	margin-top: 4px;
 }
 #search_icon{
-	/*margin-top:-12px;*/
+	margin-top:-12px;
 }
 #full_metal_wrapper{
 	padding-left: 155px;
@@ -1209,7 +1228,7 @@ button:hover{
 	text-decoration: none;
 }
 
-#catalog_show_container{
+#catalog_show_container,#search_result_container{
 	background-color: white;
 	max-width: 1600px;
 	padding-top: 100px;
@@ -1452,7 +1471,50 @@ button:hover{
     margin: auto;
 }
 .about_num{
-	font-size: 50px;
+    font-family: Proxima Nova;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 140%;
+    color: #0C3D69;
+}
+.third_page_text p{
+    font-family: Proxima Nova;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #0C3D69;
+}
+#third_page,#catalog{
+	background-image: url("../img/page1_texture.png");
+}
+#seventh_page{
+	background-image: url("../img/page1_texture.png");	
+}
+#eighth_page{
+	background-image: url("../img/page1_texture.png");
+}
+
+#search_result_header{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #00234B;
+    margin: auto;
+    margin-top: 50px;
+}
+#search_result_content{
+	max-width: 500px;
+	margin:auto;
+	padding-bottom: 70px;
+}
+#search_result_content li,#search_result_not_fund{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #00234B;
 }
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/

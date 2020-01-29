@@ -18,10 +18,11 @@
         <span>Описание: {!!$data['product']->description!!}</span>
       </div>
     </div>
- 	  <div class="row">
+ 	  <div class="col-12">
     <h1 class="similar_prods">Товары в схожих категориях</h1> 
-  </div>
-      <div class="row">
+    </div>
+      <div class="col">
+        <div class="row">
         <div class="col-12" id="catalog">
                 <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
                   <div class="carousel-inner w-100" role="listbox">
@@ -134,6 +135,7 @@
                   </a>
                 </div>
           <!--  654-->
+          </div>
           </div>
           <!-- END CATALOG ID -->
       </div>

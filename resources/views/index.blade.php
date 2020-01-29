@@ -139,6 +139,7 @@
               <div>
                 <!-- <p id="page_2_text_heading_first">История компании</p> -->
                 <br>
+
                 <p id="page_2_text_heading">
                   Наша компания занимается поставками <span id="page_2_heading_color">качественного строительного материала</span> на рынке КР 
                 </p>
@@ -242,7 +243,7 @@
       <div id="main_div_2" class="container-fluid">
       <div class="row" id="third_page">
           <img id="about_side" src="./img/side.png" class="img-fluid">
-          <img id="about_side_2" src="./img/mixer.png" class="img-fluid">
+          <!-- <img id="about_side_2" src="./img/mixer.png" class="img-fluid"> -->
           <div class="col-12"  >
             <img id="about" src="./img/about_com.png" class="img-fluid" alt="About">
           </div>
@@ -251,39 +252,30 @@
             <div class="row justify-content-md-center">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
-                  <div class="third_page_numbers">
-                    <p>01</p>
-                    <img src="./img/triangle.png" class="img-fluid">
-                  </div>
-                  <p><span class="about_num">10</span> лет опыта</p>
+                  <span class="about_num">10</span>
+                  <br>
+                  <p>лет опыта</p>
                 </div>
               </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
-                  <div class="third_page_numbers">
-                    <p>02</p>
-                    <img src="./img/triangle.png" class="img-fluid">
-                  </div>
-                  <p><span class="about_num">20 000 +</span> клиентов</p>
+                  <span class="about_num">20 000 +</span>
+                  <br>
+                  <p>клиентов</p>
                 </div>
               </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
-                  <div class="third_page_numbers">
-                    <p>03</p>
-                    <img src="./img/triangle.png" class="img-fluid">
-                  </div>
-                  <p><span class="about_num">20 +</span> категорий товаров</p>
+                  <span class="about_num">20 +</span> 
+                  <br>
+                  <p>категорий товаров</p>
                 </div>
               </div>
               
-                            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
-                  <div class="third_page_numbers">
-                    <p>04</p>
-                    <img src="./img/triangle.png" class="img-fluid">
-                  </div>
-                  <p><span class="about_num">300 +</span> позиций товаров</p>
+                  <span class="about_num">300 +</span>
+                  <p>позиций товаров</p>
                 </div>
               </div>
 
@@ -623,40 +615,55 @@
           </div>
           <!-- <div class="col-12" id="catalog_elements_list_9"> -->
             <div class="row justify-content-md-center">
-              <div class="col-xl-4 col-lg-6 col-md-6 col-12 ">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-12 ">
                 <div class="catalog_element_wrapper_9">
                   <div class="catalog_element_9">
-                    <img src="./img/01.png" class="img-fluid">
+                    <!-- <img src="./img/01.png" class="img-fluid"> -->
                     <div>
-                      <h2>Лидер в производстве шлифовального инструмента - Белгородский абразивный завод</h2>
+                      <h3>Новинки</h3>
+                      <h2>Лидер в производстве шлифовального</h2>
 
-                      <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+                      <p>Давно выяснено, что при оценке дизайна и композиции .</p>
                       <button>Читать новость</button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-12 ">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-12 ">
                  <div class="catalog_element_wrapper_9">
                   <div class="catalog_element_9">
-                    <img src="./img/02.png" class="img-fluid">
+                    <!-- <img src="./img/02.png" class="img-fluid"> -->
                     <div>
-                      <h2>Лидер в производстве шлифовального инструмента - Белгородский абразивный завод</h2>
+                      <h3>Новые Партнеры</h3>
+                      <h2>Лидер в производстве шлифовального</h2>
 
-                      <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+                      <p>Давно выяснено, что при оценке дизайна и композиции .</p>
                       <button>Читать новость</button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-6 col-md-6 col-12 ">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-12 ">
                  <div class="catalog_element_wrapper_9">
                   <div class="catalog_element_9">
-                    <img src="./img/03.png" class="img-fluid">
+                    <!-- <img src="./img/03.png" class="img-fluid"> -->
                     <div>
-                      <h2>Лидер в производстве шлифовального инструмента - Белгородский абразивный завод</h2>
-
-                      <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+                      <h3>Расширение ассортимента</h3>
+                      <h2>Лидер в производстве шлифовального</h2>
+                      <p>Давно выяснено, что при оценке дизайна и композиции .</p>
+                      <button>Читать новость</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-12 ">
+                 <div class="catalog_element_wrapper_9">
+                  <div class="catalog_element_9">
+                    <!-- <img src="./img/03.png" class="img-fluid"> -->
+                    <div>
+                      <h3>Интересное</h3>
+                      <h2>Лидер в производстве шлифовального</h2>
+                      <p>Давно выяснено, что при оценке дизайна и композиции .</p>
                       <button>Читать новость</button>
                     </div>
                   </div>
