@@ -1522,6 +1522,9 @@ button:hover{
 .show_all_products_list_item{
 	margin-bottom: 20px;
 }
+.related_item_image_wrapper{;
+	min-height: 200px;
+}
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 /* medium - display 2  */

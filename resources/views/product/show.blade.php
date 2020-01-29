@@ -31,7 +31,9 @@
                           <div class="catalog_element_wrapper">
                             <div class="catalog_element">
                               <div>
+                                <div class="related_item_image_wrapper">
                                 <img src="\storage\{{$data['cat']->sub_category[0]->image}}" class="img-fluid">
+                                </div>
                                 <p>{{$data['cat']->sub_category[0]->name}}</p>
                                 <button><a href="">Смотреть</a></button>
                               </div>
@@ -46,7 +48,9 @@
                                 <div class="catalog_element_wrapper">
                                   <div class="catalog_element">
                                     <div>
+                                      <div class="related_item_image_wrapper">
                                       <img src="\storage\{{$product->image}}" class="img-fluid">
+                                      </div>
                                       <p>{{$product->name}}</p>
                                       <button><a href="">Смотреть</a></button>
                                     </div>
