@@ -931,7 +931,7 @@ body{
     -webkit-box-shadow: none;
             box-shadow: none;
     border: 1px solid #0C3D69;
-    margin-left: 40px;
+    margin: auto;
 }
 
 .catalog_element_9 h2{
