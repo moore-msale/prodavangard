@@ -1523,7 +1523,10 @@ button:hover{
 	margin-bottom: 20px;
 }
 .related_item_image_wrapper{;
-	min-height: 200px;
+	min-height: 170px;
+}
+.catalog_element_related{
+	height: 400px;
 }
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/

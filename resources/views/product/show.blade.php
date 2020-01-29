@@ -29,7 +29,7 @@
                      <div class="carousel-item active">
                       <div class="col-lg-3 col-md-6">
                           <div class="catalog_element_wrapper">
-                            <div class="catalog_element">
+                            <div class="catalog_element catalog_element_related">
                               <div>
                                 <div class="related_item_image_wrapper">
                                 <img src="\storage\{{$data['cat']->sub_category[0]->image}}" class="img-fluid">
@@ -46,7 +46,7 @@
                     <div class="carousel-item">
                       <div class="col-lg-3 col-md-6">
                                 <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
+                                  <div class="catalog_element catalog_element_related">
                                     <div>
                                       <div class="related_item_image_wrapper">
                                       <img src="\storage\{{$product->image}}" class="img-fluid">
