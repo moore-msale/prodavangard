@@ -1528,6 +1528,9 @@ button:hover{
 .catalog_element_related{
 	height: 400px;
 }
+#wood_description_btn{
+	margin-top: 25px!important;
+}
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 /* medium - display 2  */

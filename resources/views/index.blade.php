@@ -518,7 +518,7 @@
                 <h1>Для обработки дерева</h1>
                 <img src="./img/arrow.png" class="img-fluid">
                   <p>шлифовальные листы<br> рулоны шлифовальные<br> бобины шлифовальные<br> диски шлифовальные самозакрепляющиеся<br> ленты бесконечные<br> круги лепестковые с оправкой</p>
-                 <a href="{{ route('viewCatalogAll') }}"><button>Смотреть каталог</button></a>
+                 <a href="{{ route('viewCatalogAll') }}"><button id="wood_description_btn">Смотреть каталог</button></a>
            </div>
          </div>
        </div>
