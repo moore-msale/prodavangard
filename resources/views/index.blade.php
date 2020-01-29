@@ -64,7 +64,7 @@
               </div>
               <div class="row" id="page_1_button_row">
                 <div class="col-md-6 col-sm-6 col-12">
-                  <button class="btn_page1" id="button_1">Перейти в каталог</button>
+                  <a href="{{ route('viewCatalogAll') }}"><button class="btn_page1" id="button_1">Перейти в каталог</button></a>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12">
                   <a href="{{ route('coop') }}"><button class="btn_page1" id="button_2">Сотрудничество</button></a>
@@ -84,7 +84,7 @@
                   <div class="page_1_location_time" id="page_1_time">
                     <img src="./img/clock_1.svg" style="height: 37px">
                     <p>
-                      с 11.00 до 17.00 пон - пт,
+                      с 11.00 до 17.00 пн - пт,
                       c 11.00 до 14.00 суббота
                     </p>
                   </div> 
