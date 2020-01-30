@@ -138,7 +138,7 @@
             </div>
             <div class="col-lg-6 col-md-9" id="page_2_text_wrapper">
               <div>
-                <!-- <p id="page_2_text_heading_first">История компании</p> -->
+                <p id="page_2_text_heading_first">История компании</p>
                 <br>
 
                 <p id="page_2_text_heading">
