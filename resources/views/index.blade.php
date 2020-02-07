@@ -358,7 +358,7 @@
                                 <div class="catalog_element_wrapper">
                                   <div class="catalog_element">
                                     <div>
-                                      <img src="storage\{{$product->image}}" class="img-fluid">
+                                      <img src="{{ asset('storage/'.$product->image)}}" class="img-fluid">
                                       <p>{{$product->name}}</p>
                                       <button><a href="{{ route('viewProduct',['id' => $product->id]) }}">Смотреть</a></button>
                                     </div>
