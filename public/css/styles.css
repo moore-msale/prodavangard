@@ -1597,7 +1597,7 @@ button:hover{
 	width: 147px!important;
     height: 41px!important;
     padding: 0!important;
-    background: #0C3D69;
+    /*background: #0C3D69;*/
     border-radius: 40px;
     border: none;
     margin-right: 24px!important;
@@ -1608,6 +1608,10 @@ button:hover{
     text-align: center;
     color: #FFFFFF;
     margin-left: 20px;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid white;
 }
 .about_card_title{
 	font-size: 25px;
