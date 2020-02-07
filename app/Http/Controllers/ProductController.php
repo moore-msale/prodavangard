@@ -20,6 +20,10 @@ class ProductController extends Controller
         return view('index')->with('index_data',$index_data); 
 
     }
+    public function about(){
+        return view('about.about'); 
+
+    }
     public function viewProduct(Request $request, $id){
         $sub_cat = Product::find($request->id)->sub_category_id;
         $cat_id = sub_category::find($sub_cat)->category_id;

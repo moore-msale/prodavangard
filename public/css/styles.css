@@ -103,8 +103,10 @@ body{
 	text-align: justify;
 }
 .page_1_text span{
-	font-size: 90px;
+	font-size: 170px;
 	color: #4aa0f0;
+	font-weight: bold;
+	text-shadow: -15px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
 }
 .navbar-brand{
 	margin-top: 35px;
@@ -134,7 +136,7 @@ body{
 .nav-link{
 	padding: 0!important;
 	margin-left:0!important;
-	margin-right:42px!important;
+	margin-right:20px!important;
 }
 #outlets_btn_li a{
 	margin-right: 0!important;
@@ -225,13 +227,20 @@ body{
 }
 #page_2_text_heading_first{
 	font-family: Proxima Nova;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 40px;
-	line-height: 120%;
-	color: #FFFFFF;
-	max-width: 471px;
-	margin: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: 20px;
 }
 #page_2_text_heading{
 	font-family: Proxima Nova;
@@ -240,18 +249,19 @@ body{
 	font-size: 35px;
 	line-height: 120%;
 	color: #FFFFFF;
-	max-width: 471px;
+	/*max-width: 471px;*/
+	text-indent: 30px;
 	margin-left: 20px;
 }
 .page_2_text_body{
-	margin-top: 25px;
+	margin-top: 8px;
 	font-family: Proxima Nova;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 120%;
 	color: #FFFFFF;
-	max-width: 511px;
+	/*max-width: 511px;*/
 	margin-left: 20px;
 }
 #second_page_image_div{
@@ -269,6 +279,10 @@ body{
 	max-height: 479px;
 	margin-top: -420px;
 	margin-left: 50px;
+	opacity: .5;
+}
+#about_us_first_sent{
+	text-indent: 50px;
 }
 /*#second_page_image_div img{
 	max-height: 479px;
@@ -635,7 +649,8 @@ body{
 #paint_main_image{
 	position: absolute;
 	right: 0;
-	margin-top: 95px
+	margin-top: 95px;
+	width: 85%;
 }
 /*#paint_description img{
 	position: absolute!important;
@@ -1359,11 +1374,11 @@ button:hover{
 .partner_class_item{
 	margin: 10px;
 	width: 25%;
-	height: 400px;
+	height: 200px;
 
 }
 .partner_img_wrapper{
-	height: 50%;
+	height: 100%;
 	display: grid;
 }
 .partner_img_wrapper img{
@@ -1391,6 +1406,7 @@ button:hover{
 	padding:5%;
 	background-color: white;
 	height: 50%;
+	display: none;
 }
 .partner_text_wrapper h1{
 	font-family: Proxima Nova;
@@ -1473,9 +1489,10 @@ button:hover{
 .about_num{
     font-family: Proxima Nova;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 140%;
-    color: #0C3D69;
+    color: #435566;
+    text-shadow: -1px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
 }
 .third_page_text p{
     font-family: Proxima Nova;
@@ -1531,6 +1548,74 @@ button:hover{
 #wood_description_btn{
 	margin-top: 25px!important;
 }
+#about_page_container{
+	background-color: #000A1D;
+    max-width: 1600px;
+    padding-top: 100px;
+    padding-right: 0;
+    padding-left: 0;
+    color:white;
+}
+
+.about_header_h1{
+	font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212529;
+    text-shadow: -1px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.about_text_p{
+	text-indent: 50px;
+	margin-top: 8px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.about_text_wrapper{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+#about_assets_image img{
+	display: block;
+    margin: auto;
+    padding: 50px;
+}
+#history_further_btn{
+	width: 147px!important;
+    height: 41px!important;
+    padding: 0!important;
+    background: #0C3D69;
+    border-radius: 40px;
+    border: none;
+    margin-right: 24px!important;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.about_card_title{
+	font-size: 25px;
+	border-bottom: 3px solid;
+}
+/**{
+	border: 1px solid red!important;
+}*/
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
 /* medium - display 2  */
@@ -1729,6 +1814,7 @@ button:hover{
 
 }
 @media (max-width: 990px){
+
 		.page_1_text {
 	    font-size: 25px;
 	    padding-top: 100px;
@@ -2064,6 +2150,12 @@ button:hover{
 		margin-top: 60px;
 	}
 }
+
+@media (max-width: 1316px){
+	.nav-link {
+    margin-right: 12px!important;
+}
+
 /**{
 	border: 1px solid red!important;
 }*/

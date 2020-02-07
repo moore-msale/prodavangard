@@ -141,7 +141,7 @@
                 <p id="page_2_text_heading_first">История компании</p>
                 <br>
 
-                <p id="page_2_text_heading">
+<!--                 <p id="page_2_text_heading">
                   Наша компания занимается поставками <span id="page_2_heading_color">качественного строительного материала</span> на рынке КР 
                 </p>
                 <p class="page_2_text_body">
@@ -151,8 +151,34 @@
                    Группа молодых специалистов, пройдя путь карьерного роста в дистрибьюторских организациях, объединилась с целью использования опыта построения качественной дистрибьюции в строительном бизнесе, в котором ощущается дефицит системного подхода. 
                 </p>
                 <p class="page_2_text_body">
-                   За время существования компания смогла создать образ надежного и верного партнера, что позволяет нам заключать эксклюзивные договора с производителями и увеличивать число клиентов по всему Кыргызстану.
+                   За время существования компания смогла создать образ надежного и верного партнера, что позволяет нам заключать эксклюзивные договоры с производителями и увеличивать число клиентов по всему Кыргызстану.
+                </p> -->
+                <p id="about_us_first_sent" class="page_2_text_body">
+                  Как это приятно, когда есть своя история, даже пусть и не большая. Что могло произойти за эти 11 лет? Успехи и падения, правильные решения и ошибки, обретение новых и потери товарищей. И все же, как-то так:
+                </p>  
+                <p class="page_2_text_body">  
+                  2009г. - заключение договора поставки с АО "ИСМА" и первая поставка.
+                </p>  
+                <p class="page_2_text_body">   
+                  2011г. - заключение договора поставки с НПК "Томский Инструмент".
+                </p>  
+                <p class="page_2_text_body">   
+                  2013г. - заключение договора поставки с ООО "ТД Синтез"
+                </p>  
+                <p class="page_2_text_body">   
+                  2013г - заключение договора поставки с НПП "Сварка Евразии"
+                </p>  
+                <p class="page_2_text_body">   
+                  2015г. - заключение договора поставки с ОАО "Белгородский Абразивный Завод"
+                </p>  
+                <p class="page_2_text_body">   
+                  2019г. - заключение договора поставки с ООО "Инструмент-Импорт"
+                </p>  
+                <p class="page_2_text_body">   
+                  Глядя на эти сухие цифры ничего не понять. Вся история - это целенаправленный и упорный труд, в любую погоду, при любых обстоятельствах. Это история веры в себя, в свои силы, в товарищей, в дружбу, в продукцию, которую мы представляем. Это история доверия наших поставщиков и клиентов. И мы верим, что наша история только началась, она творится сегодня. Мы учимся, работаем над собой, воспитываем себя, для того, чтобы достойно встретить все вызовы, которые нам приготовило завтра. Верим, что главная история у нас еще впереди...
+
                 </p>
+                <a href="{{ route('about') }}"><button id="history_further_btn" class="btn">подробнее</button></a>
 
               </div>
 
@@ -195,9 +221,9 @@
           </div>
           <div class="row">
             <div class="col partner_class_item">
-              <div class="partner_img_wrapper" id="partner_tiz">
+              <a href="http://www.tiz.ru/"><div class="partner_img_wrapper" id="partner_tiz">
                 <img src="../img/logo_tiz.gif">
-              </div>
+              </div></a>
               <div class="partner_text_wrapper">
               <h1><a href="http://www.tiz.ru/">ТИЗ</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
@@ -205,33 +231,33 @@
             </div>
             </div>
             <div class="col partner_class_item">
-              <div class="partner_img_wrapper" id="partner_spets">
+              <a href="http://www.spetselectrode.ru/"><div class="partner_img_wrapper" id="partner_spets">
                 <img src="../img/logo_spets.png">
-              </div>
+              </div></a>
               <div class="partner_text_wrapper"><h1><a href="http://www.spetselectrode.ru/">Спецэлектрод</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <div class="partner_img_wrapper" id="partner_belab">
+              <a href="https://www.belabraziv.ru/"><div class="partner_img_wrapper" id="partner_belab">
                 <img src="../img/logo_belab.png">
-              </div>
+              </div></a>
               <div class="partner_text_wrapper"><h1><a href="https://www.belabraziv.ru/">БАЗ</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <div class="partner_img_wrapper" id="partner_isma">
+              <a href="http://ismaflex.ru/"><div class="partner_img_wrapper" id="partner_isma">
                 <img src="../img/logo_isma.png">
-              </div>
+              </div></a>
              <div class="partner_text_wrapper"><h1><a href="http://ismaflex.ru/">ИСМА</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <div class="partner_img_wrapper" id="partner_sintez">
+              <a href="http://www.td-sintez.ru/"><div class="partner_img_wrapper" id="partner_sintez">
                 <img src="../img/logo_sintez.png">
-              </div>
+              </div></a>
              <div class="partner_text_wrapper"><h1><a href="http://www.td-sintez.ru/">ТД Синтез</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
               </p></div>
@@ -251,36 +277,54 @@
           <div class="col-lg-3 col-md-3 col-sm-4"></div>
           <div class="col-lg-9 col-md-9 col-sm-8">
             <div class="row justify-content-md-center">
+
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
-                  <span class="about_num">10</span>
-                  <br>
-                  <p>лет опыта</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">20 000 +</span>
-                  <br>
-                  <p>клиентов</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">20 +</span> 
-                  <br>
-                  <p>категорий товаров</p>
-                </div>
-              </div>
-              
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">300 +</span>
-                  <p>позиций товаров</p>
+                  <span class="about_num">4</span>
+                  <p><span class="about_card_title">Филиала</span><br> (позволяют покрывать всю территорию Кыргызстана)</p>
                 </div>
               </div>
 
-            </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="third_page_text">
+                  <span class="about_num">5</span> 
+                  <br>
+                  <p><span class="about_card_title">Лучших производителей</span><br> (расходных материалов, кто действительно производит в России)</p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="third_page_text">
+                  <span class="about_num">11</span>
+                  <br>
+                  <p><span class="about_card_title">Лет поставок</span><br> (расходных материалов для инструментов на территорию Кыргызстана)</p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="third_page_text">
+                  <span class="about_num">+ 560</span>
+                  <p><span class="about_card_title">Позиций продукции</span></p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="third_page_text">
+                  <span class="about_num">+ 2 000</span>
+                  <br>
+                  <p><span class="about_card_title">Клиентов по Кыргызстану</span></p>
+                </div>
+              </div>
+<!--               <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="third_page_text">
+                  <span class="about_num">+ 20</span> 
+                  <br>
+                  <p>Категорий товаров</p>
+                </div>
+              </div> -->
+              
+
+              </div>
           </div>
           <div class="col-12">
             <p id="third_page_second_header" >Полный каталог всей поставляемой нами продукции</p>
@@ -297,7 +341,9 @@
                           <div class="catalog_element_wrapper">
                             <div class="catalog_element">
                               <div>
-                                <img src="storage\{{$index_data['products'][0]->image}}" class="img-fluid">
+                                <!-- <img src="storage\{{$index_data['products'][0]->image}}" class="img-fluid"> -->
+                                <img src="{{ asset('storage/'.$index_data['products'][0]->image) }}" class="img-fluid">
+
                                 <p>{{$index_data['products'][0]->name}}</p>
                                 <button><a href="{{ route('viewProduct',['id' => $index_data['products'][0]->id]) }}">Смотреть</a></button>
                               </div>
@@ -514,7 +560,7 @@
        </div>
        <div class="row" id="fourth_page">
          <div class="col-12" id="fourth_page_inner" >
-           <img src="./img/wood.png" class="img-fluid">
+           <img src="./img/wood_n.png" class="img-fluid">
            <div id="wood_description">
                 <h1>Для обработки дерева</h1>
                 <img src="./img/arrow.png" class="img-fluid">
@@ -526,7 +572,7 @@
        <div class="row" id="fifth_page">
          <div class="col-12" id="fifth_page_inner">
             <img src="" class="img-fluid">
-            <img id="paint_main_image" src="./img/paint.png" class="img-fluid">
+            <img id="paint_main_image" src="./img/paint_dark.png" class="img-fluid">
             <div id="paint_description">
                   <h1>Для малярных работ</h1>
                   <img src="./img/arrow.png" class="img-fluid">
@@ -549,7 +595,7 @@
           <div id="seventh_page_card">
             <h1>Вы можете купить строительные материалы <br><span>оптом и в розницу</span></h1>
             <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
-            <button>Перейти в каталог</button>
+            <a href="{{ route('viewCatalogAll') }}"><button>Перейти в каталог</button></a>
           </div>
           
           
@@ -570,21 +616,25 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="carousel_feedback_item" alt="First slide">
-                      <h1>prodAvangard</h1>
-                      <p>Мы работаем с поставщиками, гарантирующими качество, выпускаемой продукции.</p>
+                      <h1>Почему с нами выгодно работать</h1>
+                      <p>Мы никогда не будем грузить клиента минимальной партией, вынуждая его брать больше!
+                        За качество отвечает производитель, а он всегда на связи!
+                      </p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="carousel_feedback_item" alt="First slide">
-                      <h1>prodAvangard</h1>
-                      <p>Наш товар вы можете приобрести в магазинах и торговых точках, а также разместив заказ на нашем сайте www.rashodnik.kg</p>
+                      <h1>Почему с нами выгодно работать</h1>
+                      <p>Мы прилагаем все усилия, для того чтобы товар был всегда в наличии.
+                        Уделяем огромное значение стабильности и периодичности поставок клиентам.
+                      </p>
                       <!-- <h5>Директор Осоо ´Кыргыз Алтын´</h5> -->
                   </div>
                 </div>
                 <div class="carousel-item">
                   <div class="carousel_feedback_item" alt="First slide">
-                      <h1>prodAvangard</h1>
-                      <p>Мы ориентированы на долгосрочное взаимовыгодное сотрудничество с клиентами, которые становятся нашими партнерами.</p>
+                      <h1>Почему с нами выгодно работать</h1>
+                      <p>Наши клиенты окружены заботой, вниманием и отсутствием каких-либо рисков.</p>
                       <!-- <h5>Директор Осоо ´Кыргыз Алтын´</h5> -->
                   </div>
                 </div>
@@ -711,9 +761,9 @@
                         <div class="last_page_contacts">
                           <div>
                             <img src="./img/phone.svg" class="img-fluid">
-                            <p>+996 312 35 72 87</p>
-                            <p>+996 770 99 00 36</p>
-                            <p>+996 770 00 46 26</p>
+                            <p>+996 (312) 35-72-87</p>
+                            <p>+996 (772) 00-46-26</p>
+                            <p>+996 (770) 99-00-96</p>
                           </div>
                         </div>
                       </div>

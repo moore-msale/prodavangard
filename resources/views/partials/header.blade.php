@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-<a class="navbar-brand" href="{{ route('index') }}">prodAvangard</a>
+<a class="navbar-brand" href="{{ route('index') }}">Прод-Авангард Компани KG</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -14,11 +14,11 @@
     <li id="catalog_link" class="nav-item">
       <a class="nav-link" href="{{ route('viewCatalogAll') }}">Каталог</a>
     </li>
-    <li id="category_link" class="nav-item">
-      <a class="nav-link" href="#">Категории</a>
-    </li>
     <li id="vendor_link" class="nav-item">
       <a class="nav-link" href="{{ route('part') }}">Производители</a>
+    </li>
+    <li id="news_link" class="nav-item">
+      <a class="nav-link" href="#">Новости</a>
     </li>
 
     <li id="outlets_btn_li" class="nav-item">
@@ -39,9 +39,9 @@
 
   </ul>
   <span class="phone">
-    <p>+996 312 35 72 87</p>
-    <p>+996 770 99 00 36</p>
-    <p>+996 770 00 46 26</p>
+    <p>+996 (312) 35-72-87</p>
+    <p>+996 (772) 00-46-26</p>
+    <p>+996 (770) 99-00-96</p>
   </span>
 </div>
 </nav>
