@@ -9,7 +9,7 @@
       <a class="nav-link" href="{{ route('index') }}">Главная</a>
     </li>
     <li id="about_link" class="nav-item">
-      <a class="nav-link" href="#">О нас</a>
+      <a class="nav-link" href="{{ route('about') }}">О нас</a>
     </li>
     <li id="catalog_link" class="nav-item">
       <a class="nav-link" href="{{ route('viewCatalogAll') }}">Каталог</a>

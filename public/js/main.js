@@ -4,12 +4,12 @@
 //         scrollTop: $("#third_page_second_header").offset().top-100
 //     }, 1000);
 // });
-$("#about_link").click(function() {
-    console.log('CLICk')
-    $('html, body').animate({
-        scrollTop: $("#third_page").offset().top
-    }, 1000);
-});
+// $("#about_link").click(function() {
+//     console.log('CLICk')
+//     $('html, body').animate({
+//         scrollTop: $("#third_page").offset().top
+//     }, 1000);
+// });
 
 $("#vendor_link").click(function() {
     console.log('CLICk')
