@@ -1,9 +1,9 @@
-// $("#catalog_link").click(function() {
-//     console.log('CLICk')
-//     $('html, body').animate({
-//         scrollTop: $("#third_page_second_header").offset().top-100
-//     }, 1000);
-// });
+$("#news_link").click(function() {
+    console.log('CLICk')
+    $('html, body').animate({
+        scrollTop: $("#nineth_page_inner").offset().top-100
+    }, 1000);
+});
 // $("#about_link").click(function() {
 //     console.log('CLICk')
 //     $('html, body').animate({
