@@ -339,8 +339,8 @@ body{
 	position: absolute;
 	max-width: 259px;
 	margin-top: 137px;
-	opacity: .5;
-    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+	opacity: 1;
+    text-shadow: -2px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 #second_page_line{
 	position: absolute;
@@ -407,6 +407,7 @@ body{
 	margin-bottom: 15px;
 }
 .third_page_text{
+	text-align: center;
     /*background-color: white;*/
     padding-left: 10px;
     padding-right: 10px;
@@ -1576,6 +1577,7 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    padding-top:20px;
 }
 .about_text_p{
 	margin-top: 8px;
@@ -1626,6 +1628,12 @@ button:hover{
 }
 .text_50_indent{
 	text-indent: 50px;
+}
+#about_low_opacity{
+	opacity: .5;
+}
+#about_lower_opacity{
+	opacity: .25
 }
 /**{
 	border: 1px solid red!important;
