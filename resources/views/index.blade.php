@@ -761,9 +761,9 @@
                         <div class="last_page_contacts">
                           <div>
                             <img src="./img/phone.svg" class="img-fluid">
-                            <p>+996 (312) 35-72-87</p>
-                            <p>+996 (772) 00-46-26</p>
-                            <p>+996 (770) 99-00-96</p>
+                            <p>+996 312 35 72 87</p>
+                            <p>+996 772 00 46 26</p>
+                            <p>+996 770 99 00 96</p>
                           </div>
                         </div>
                       </div>
