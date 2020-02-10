@@ -281,7 +281,7 @@
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
                   <span class="about_num">4</span>
-                  <p><span class="about_card_title">Филиала</span><br> (позволяют покрывать всю территорию Кыргызстана)</p>
+                  <p><span class="about_card_title">Филиала</span><br></p>
                 </div>
               </div>
 
@@ -289,7 +289,7 @@
                 <div class="third_page_text">
                   <span class="about_num">5</span> 
                   <br>
-                  <p><span class="about_card_title">Лучших производителей</span><br> (расходных материалов, кто действительно производит в России)</p>
+                  <p><span class="about_card_title">Лучших производителей</span><br></p>
                 </div>
               </div>
 
@@ -297,7 +297,7 @@
                 <div class="third_page_text">
                   <span class="about_num">11</span>
                   <br>
-                  <p><span class="about_card_title">Лет поставок</span><br> (расходных материалов для инструментов на территорию Кыргызстана)</p>
+                  <p><span class="about_card_title">Лет поставок</span><br></p>
                 </div>
               </div>
 

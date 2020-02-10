@@ -408,6 +408,7 @@ body{
     /*background-color: white;*/
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 50px;
 
 }
 
@@ -1575,7 +1576,6 @@ button:hover{
     margin-bottom: 20px;
 }
 .about_text_p{
-	text-indent: 50px;
 	margin-top: 8px;
     font-family: Proxima Nova;
     font-style: normal;
@@ -1616,6 +1616,14 @@ button:hover{
 .about_card_title{
 	font-size: 25px;
 	border-bottom: 3px solid;
+}
+.about_nums_span{
+	font-size: 20px;
+	padding-right: 5px;
+	text-shadow: -2px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
+}
+.text_50_indent{
+	text-indent: 50px;
 }
 /**{
 	border: 1px solid red!important;
