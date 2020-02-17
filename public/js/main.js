@@ -1,3 +1,4 @@
+
 $("#news_link").click(function() {
     console.log('CLICk')
     $('html, body').animate({
@@ -78,5 +79,12 @@ $( document ).ready(function() {
     var sub_id = $('.category_name').attr('sub_id');
     console.log(sub_id);
     $('#'+sub_id).addClass('show');
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
 
 });

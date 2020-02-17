@@ -2,127 +2,310 @@
 @section('content')
 <div class="container-fluid" id="container_first">
 	@include('partials.header')
-<!--                 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <a class="navbar-brand" href="#">prodAvangard</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li id="main_link" class="nav-item active">
-                      <a class="nav-link" href="#">Главная</a>
-                    </li>
-                    <li id="about_link" class="nav-item">
-                      <a class="nav-link" href="#">О нас</a>
-                    </li>
-                    <li id="catalog_link" class="nav-item">
-                      <a class="nav-link" href="#">Каталог</a>
-                    </li>
-                    <li id="category_link" class="nav-item">
-                      <a class="nav-link" href="#">Категории</a>
-                    </li>
-                    <li id="vendor_link" class="nav-item">
-                      <a class="nav-link" href="#">Производители</a>
-                    </li>
-
-                    <li class="nav-item" id="search_form_wrapper">
-                     <form id="search_form" class="form-inline my-2 my-lg-0">
-                    <input id="search_field" class="form-control mr-sm-2" type="search" placeholder="Точки продаж" aria-label="Search">
-                    <input id="search_icon" type="image" src="./img/search.svg" border="0" alt="Submit" />
-                  </form>
-                    </li>
-
-                  </ul>
-
-                  <span>
-                    <p class="phone">
-                      +996 312 35 72 87
-                    </p>
-                  </span>
-                </div>
-              </nav> -->
         <div class="row" id="main">
           <div class="container-fluid" id="container_second">
+          
+          <div id="carousel_main_page" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_main_page" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_main_page" data-slide-to="1"></li>
+              <li data-target="#carousel_main_page" data-slide-to="2"></li>
+              <li data-target="#carousel_main_page" data-slide-to="3"></li>
+              <li data-target="#carousel_main_page" data-slide-to="4"></li>
+              <li data-target="#carousel_main_page" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row main_carousel_item_wrapper" id="first_page_slide">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="page_1_text">Официальный дистрибьютор</p>
+                        <p id="page_1_text_id_no_top" class="page_1_text">
+                        <span>10</span> лет поставляем Российские расходные строительные материалы на рынок Кыргызстана
+                        </p>            
+                      </div>
+                    </div>
+                    <div class="row" id="page_1_button_row">
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <a href="{{ route('viewCatalogAll') }}"><button class="btn_page1" id="button_1">Перейти в каталог</button></a>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <a href="{{ route('coop') }}"><button class="btn_page1" id="button_2">Сотрудничество</button></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <div class="page_1_location_time" id="page_1_location">
+                           <img src="./img/location_1.svg" style="height: 37px">
+                          <p>
+                            Кыргызстан, г. Бишкек,
+                            улица Садыгалиева 5а
+                          </p>
+                        </div> 
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-12">
+                        <div class="page_1_location_time" id="page_1_time">
+                          <img src="./img/clock_1.svg" style="height: 37px">
+                          <p>
+                            с 11.00 до 17.00 пн - пт,
+                            <br>
+                            c 11.00 до 14.00 суббота
+                          </p>
+                        </div> 
 
-<!--           <div class="row" id="nav-row">
-            <div class="col-12"> -->
-
-
-
-<!--             </div>
-          </div> -->
-
-
-          <div class="row" id="first_page">
-            <div class="col-lg-6 col-md-12">
-              <div class="row">
-                <div class="col-12">
-                  <p class="page_1_text">
-                  <span>10</span> лет поставляем Российские расходные строительные материалы на рынок Кыргызстана
-                  </p>            
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide1_img.png">
+                  </div>
                 </div>
               </div>
-              <div class="row" id="page_1_button_row">
-                <div class="col-md-6 col-sm-6 col-12">
-                  <a href="{{ route('viewCatalogAll') }}"><button class="btn_page1" id="button_1">Перейти в каталог</button></a>
-                </div>
-                <div class="col-md-6 col-sm-6 col-12">
-                  <a href="{{ route('coop') }}"><button class="btn_page1" id="button_2">Сотрудничество</button></a>
+              <div class="carousel-item">
+                <div class="row main_carousel_item_wrapper" id="second_page_slide">
+                  <div class="col-lg-6 col-md-12">
+                    <div class="slide_part_name_logo">
+                      <span><img src="./img/static/belgorod_logo.png"></span>
+                      <div>
+                      <h1 class="slide_part_name">Белгородский абразивный завод</h1>
+                      <p>Гибкие аброзивные инструменты</p>
+                      </div>
+                    </div>
+                    <div class="row part_slider_stats">
+                      <div class="col-lg-4">
+                        <h2>Более 50 лет</h2>
+                        <p>заводу</p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h2>Более 3800</h2>
+                        <p>клиентов завода</p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h2>Более 3000</h2>
+                        <p>наименований продукции</p>
+                      </div>
+                    </div>
+                    <div class="part_slider_desc">
+                      
+                        <p><span>Белгородский абразивный</span> завод был построен в 1966 году как опытное производство по освоению выпуска шлифовальной шкурки на синтетических связующих.
+                      </p>
+                    </div>
+                   <div>
+                    <a href="{{ route('partner',['id' => 1]) }}"><button class="btn_page_part">Подробнее</button></a> 
+                   </div> 
+                  </div>
+                  
+                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide2_img.png">
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6 col-sm-6 col-12">
-                  <div class="page_1_location_time" id="page_1_location">
-                     <img src="./img/location_1.svg" style="height: 37px">
-                    <p>
-                      Кыргызстан, г. Бишкек,
-                      улица Садыгалиева 5а
-                    </p>
-                  </div> 
-                </div>
-                <div class="col-md-6 col-sm-6 col-12">
-                  <div class="page_1_location_time" id="page_1_time">
-                    <img src="./img/clock_1.svg" style="height: 37px">
-                    <p>
-                      с 11.00 до 17.00 пн - пт,
-                      <br>
-                      c 11.00 до 14.00 суббота
-                    </p>
-                  </div> 
 
-                </div>
-              </div>
+
+              <div class="carousel-item">
+
+              <div class="row main_carousel_item_wrapper" id="third_page_slide">
+                                  <div class="col-lg-6 col-md-12">
+                    <div class="slide_part_name_logo">
+                      <span><img src="./img/static/isma_logo.png"></span>
+                      <div>
+                      <h1 class="slide_part_name">ISMAFLEX</h1>
+                      <p>Отрезной и шлифовальные инструменты</p>
+                      </div>
+                    </div>
+                    <div class="row part_slider_stats">
+                      <div class="col-lg-4">
+                        <h2>Более 100 лет</h2>
+                        <p>заводу</p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h2>Более 2080</h2>
+                        <p>заказчиков</p>
+                      </div>
+                      <div class="col-lg-4">
+                        <h2>Более 1200</h2>
+                        <p>наименований продукции</p>
+                      </div>
+                    </div>
+                    <div class="part_slider_desc">
+                      
+                        <p>Завод был основан <span>Карлом Ивановичем Гильденбрантом</span> в конце XIX в. Официальным годом основания предприятия считается 1898 г.
+                      </p>
+                    </div>
+                   <div>
+                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                   </div> 
+                  </div>
+                  
+                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide3_img.png">
+                  </div>
+
+
             </div>
-            <div class="col-lg-6 col-md-12">
-              <div id="carousel_main_page" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="./img/slide_16.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+
+              <div class="row main_carousel_item_wrapper" id="fourth_page_slide">
+                                  <div class="col-lg-6 col-md-12">
+                    <div class="slide_part_name_logo">
+                      <span><img src="./img/static/tiz_logo.png"></span>
+                      <div>
+                      <h1 class="slide_part_name">Группа компаний “Томский инструмент”</h1>
+                      <p>Металлорежущие и дереворежущие инструменты</p>
+                      </div>
+                    </div>
+                    <div class="row part_slider_stats">
+                      <div class="col-lg-4">
+                        <h2>Более 75 лет</h2>
+                        <p>заводу</p>
+                      </div>
+                    </div>
+                    <div class="part_slider_desc">
+                      
+                        <p>Рождение завода произошло при эвакуации в конце <span>1941 года</span> ведущего предприятия советской инструментальной промышленности московского завода "Фрезер".
+                      </p>
+                    </div>
+                   <div>
+                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                   </div> 
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/bob.png" alt="Second slide">
+                  
+                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide4_img.png">
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/SpecElectrod-007.png" alt="Third slide">
+
+
+            </div>
+              </div>
+              <div class="carousel-item">
+
+              <div class="row main_carousel_item_wrapper" id="fifth_page_slide">
+                                  <div class="col-lg-6 col-md-12">
+                    <div class="slide_part_name_logo">
+                      <span><img src="./img/static/spets_logo.png"></span>
+                      <div>
+                      <h1 class="slide_part_name">Спецэлектрод</h1>
+                      <p>Сварочные электроды</p>
+                      </div>
+                    </div>
+                    <div class="row part_slider_stats">
+                      <div class="col-lg-4">
+                        <h2>Более 70 лет</h2>
+                        <p>заводу</p>
+                      </div>
+                    </div>
+                    <div class="part_slider_desc">
+                      
+                        <p><span>СпецЭлектрод</span> - это лидер в продаже, производстве, разработке электродов и спецэлектродов на территории Азии и Европы.
+                      </p>
+                    </div>
+                   <div>
+                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                   </div> 
                   </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="./img/drill.png" alt="Third slide">
+                  
+                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide5_img.png">
+                  </div>
+            </div>
+              </div>
+
+             <div class="carousel-item">
+
+              <div class="row main_carousel_item_wrapper" id="sixth_page_slide">
+                                  <div class="col-lg-6 col-md-12">
+                    <div class="slide_part_name_logo">
+                      <span><img src="./img/static/sintez_logo.png"></span>
+                      <div>
+                      <h1 class="slide_part_name">ТД Синтез</h1>
+                      <p>Растворители европейского качества</p>
+                      </div>
+                    </div>
+                    <div class="row part_slider_stats">
+                      <div class="col-lg-4">
+                        <h2>Более 20 лет</h2>
+                        <p>на рынке</p>
+                      </div>
+                    </div>
+                    <div class="part_slider_desc">
+                      
+                        <p><span>ТД Синтез</span> предлагает разнообразный ассортимент растворителей, способный удовлетворить даже самого требовательного потребителя.
+                      </p>
+                    </div>
+                   <div>
+                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                   </div> 
+                  </div>
+                  
+                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <img src="./img/static/block1_slide6_img.png">
+                  </div>
+            </div>
+              </div>
+
+
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carousel_main_page" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel_main_page" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>  
+
+<!--             <div class="row" id="first_page">
+              <div class="col-lg-6 col-md-12">
+                <div class="row">
+                  <div class="col-12">
+                    <p class="page_1_text">Официальный дистрибьютор</p>
+                    <p id="page_1_text_id_no_top" class="page_1_text">
+                    <span>10</span> лет поставляем Российские расходные строительные материалы на рынок Кыргызстана
+                    </p>            
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carousel_main_page" role="button" data-slide="prev">
-                  <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-                  <img id="carousel_main_arrow_left" src="./img/arrow_left.svg">
+                <div class="row" id="page_1_button_row">
+                  <div class="col-md-6 col-sm-6 col-12">
+                    <a href="{{ route('viewCatalogAll') }}"><button class="btn_page1" id="button_1">Перейти в каталог</button></a>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-12">
+                    <a href="{{ route('coop') }}"><button class="btn_page1" id="button_2">Сотрудничество</button></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-12">
+                    <div class="page_1_location_time" id="page_1_location">
+                       <img src="./img/location_1.svg" style="height: 37px">
+                      <p>
+                        Кыргызстан, г. Бишкек,
+                        улица Садыгалиева 5а
+                      </p>
+                    </div> 
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-12">
+                    <div class="page_1_location_time" id="page_1_time">
+                      <img src="./img/clock_1.svg" style="height: 37px">
+                      <p>
+                        с 11.00 до 17.00 пн - пт,
+                        <br>
+                        c 11.00 до 14.00 суббота
+                      </p>
+                    </div> 
 
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel_main_page" role="button" data-slide="next">
-                  <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-                  <img id="carousel_main_arrow_right" src="./img/arrow_right.svg">
-                  <span class="sr-only">Next</span>
-                </a>
-              </div> 
-            </div>
-          </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+              </div>
+            </div> -->
+
+
+
           <div class="row" id="second_page">
             <div class="col-lg-6 col-md-3">
               <div id="second_page_image_div">
@@ -215,6 +398,8 @@
             </div> --}}
           </div>
         </div> <!-- second container -->
+
+
         <div class="container-fluid" id="partners_container">
           <div class="row" id="partners_title_wrapper">
             <p id="partners_title">Наши партнеры</p>

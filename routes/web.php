@@ -19,6 +19,9 @@ Route::get('/','ProductController@index')->name('index');
 Route::get('/about','ProductController@about')->name('about');
 Route::get('/viewProduct/{id}','ProductController@viewProduct')->name('viewProduct');
 Route::get('/coop/','ProductController@coop')->name('coop');
+
+Route::get('/partner/{id}','Partners@show')->name('partner');
+
 Route::post('/search/','ProductController@search')->name('search');
 
 // Route::get('/viewCatalog/{id}','CatalogController@viewCatalog')->name('viewCatalog');
