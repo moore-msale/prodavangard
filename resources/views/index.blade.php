@@ -134,7 +134,7 @@
                       </p>
                     </div>
                    <div>
-                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                    <a href="{{ route('partner',['id' => 2]) }}"><button class="btn_page_part">Подробнее</button></a>  
                    </div> 
                   </div>
                   
@@ -168,7 +168,7 @@
                       </p>
                     </div>
                    <div>
-                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                    <a href="{{ route('partner',['id' => 3]) }}"><button class="btn_page_part">Подробнее</button></a>  
                    </div> 
                   </div>
                   
@@ -202,7 +202,7 @@
                       </p>
                     </div>
                    <div>
-                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                    <a href="{{ route('partner',['id' => 4]) }}"><button class="btn_page_part">Подробнее</button></a> 
                    </div> 
                   </div>
                   
@@ -235,7 +235,7 @@
                       </p>
                     </div>
                    <div>
-                    <a href="{{ route('coop') }}"><button class="btn_page_part">Подробнее</button></a> 
+                    <a href="{{ route('partner',['id' => 5]) }}"><button class="btn_page_part">Подробнее</button></a>  
                    </div> 
                   </div>
                   
@@ -400,7 +400,7 @@
         </div> <!-- second container -->
 
 
-        <div class="container-fluid" id="partners_container">
+{{--         <div class="container-fluid" id="partners_container">
           <div class="row" id="partners_title_wrapper">
             <p id="partners_title">Наши партнеры</p>
           </div>
@@ -450,19 +450,29 @@
           </div>
 
 
-        </div>
+        </div> --}}
       </div><!-- main row -->
       <div id="main_div_2" class="container-fluid">
+
+
       <div class="row" id="third_page">
           <img id="about_side" src="./img/side.png" class="img-fluid">
-          <!-- <img id="about_side_2" src="./img/mixer.png" class="img-fluid"> -->
-          <div class="col-12"  >
-            <img id="about" src="./img/about_com.png" class="img-fluid" alt="About">
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-4"></div>
-          <div class="col-lg-9 col-md-9 col-sm-8">
-            <div class="row justify-content-md-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-4" id="about_french_col">
+                                <div class="third_page_text">
+                  <span class="about_num">5</span> 
+                  <br>
+                  <p><span class="about_card_title">Лучших производителей</span><br></p>
+                </div>
+              </div>
+              <div class="col-lg-4" id="about_french_col"></div>
+              <div class="col-lg-4" id="about_french_col"></div>
 
+            </div>
+          </div>
+
+{{--             <div class="row justify-content-md-center">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
                   <div class="about_num">4</div>
@@ -500,22 +510,19 @@
                   <p><span class="about_card_title">Клиентов по Кыргызстану</span></p>
                 </div>
               </div>
-<!--               <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">+ 20</span> 
-                  <br>
-                  <p>Категорий товаров</p>
-                </div>
-              </div> -->
-              
+              </div> --}}
 
-              </div>
-          </div>
           <div class="col-12">
             <p id="third_page_second_header" >Полный каталог всей поставляемой нами продукции</p>
           </div>
           
+
+
+
+
       </div><!-- third page end -->
+
+
 
       <div class="row">
         <div class="col-12" id="catalog">

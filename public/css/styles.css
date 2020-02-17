@@ -372,6 +372,7 @@ body{
 	/*max-height: 867px;*/
 	/*max-height: 736px;*/
 	padding-top: 200px;
+	margin-bottom: 5%;
 }
 #page_2_text_heading_first{
 	font-family: Proxima Nova;
@@ -1786,6 +1787,72 @@ button:hover{
 }
 #about_lower_opacity{
 	opacity: .25
+}
+.partners_page_container{
+	max-width: 1600px;
+	margin:auto;
+}
+.partners_first_block_wrapper img{
+	width: 100%;
+}
+.partners_first_block_wrapper{
+	position: relative;
+	margin-bottom: 5%;
+}
+.partners_first_block_content{
+	display: flex;
+	position: absolute;
+	margin-top: 10%;
+    margin-left: 5%;
+}
+.partners_first_block_content h1{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 100%;
+	color: #FFFFFF;
+	max-width: 500px;
+}
+.partners_first_block_content p{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 100%;
+	color: #FFFFFF;
+	max-width: 500px;
+}
+.partner_block_wrapper_row img{
+	width: 100%;
+}
+.partner_block_wrapper_row p{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 140%;
+	color: #FFFFFF;
+	margin-top: 5%;
+
+}
+.partner_block_wrapper_text{
+	padding: 3%;
+}
+.partner_block_wrapper_row{
+	margin-bottom: 4%;
+}
+.partner_url_btn{
+	margin-top:10%;
+}
+#about_french_col{
+	background-image: url("../img/static/about/french.png");
+	background-repeat: no-repeat;
+	width: 274px;
+	height:284px;
+}
+#third_page > div:nth-child(2) > div{
+	padding-left: 20%;
 }
 /**{
 	border: 1px solid red!important;

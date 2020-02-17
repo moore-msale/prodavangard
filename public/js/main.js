@@ -20,7 +20,7 @@ $("#vendor_link").click(function() {
 });
 
 $('#carousel_main_page').carousel({
-    interval: 100000
+    interval:3000
 })
 
 $('#carousel_feedback').carousel({
