@@ -24,6 +24,9 @@ class ProductController extends Controller
         return view('about.about'); 
 
     }
+    public function contacts(){
+        return view('about.contacts'); 
+    }
     public function viewProduct(Request $request, $id){
         $sub_cat = Product::find($request->id)->sub_category_id;
         $cat_id = sub_category::find($sub_cat)->category_id;
@@ -41,6 +44,10 @@ class ProductController extends Controller
     }
     public function part(Request $request){
         return view('coop.part')->with('product', '$product'); 
+    }
+
+    public function coop_map(Request $request){
+        return view('coop.coop_map'); 
     }
 
     public function search(Request $request){

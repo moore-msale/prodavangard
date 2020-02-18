@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav id="dark_header_background" class="navbar navbar-expand-lg navbar-dark fixed-top">
 <span id="logo_span"><img src="/img/static/logo.png">
 <a class="navbar-brand" href="{{ route('index') }}">Прод-Авангард <br>Компани</a>
 </span>
@@ -25,9 +25,6 @@
 
     <li id="outlets_btn_li" class="nav-item">
       <a class="nav-link" href="{{ route('coop_map') }}">Точки продаж</a>
-    </li>
-    <li id="contacts_link" class="nav-item">
-      <a class="nav-link" href="{{ route('contacts') }}">Контакы</a>
     </li>
 <!--     <li id="outlets_btn_li" class="nav-item">
       <a class="nav-link" href="#"><button id="outlets_btn">Точки продаж</button></a>

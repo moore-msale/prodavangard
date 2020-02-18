@@ -17,9 +17,10 @@
 
 Route::get('/','ProductController@index')->name('index');
 Route::get('/about','ProductController@about')->name('about');
+Route::get('/contacts','ProductController@contacts')->name('contacts');
 Route::get('/viewProduct/{id}','ProductController@viewProduct')->name('viewProduct');
 Route::get('/coop/','ProductController@coop')->name('coop');
-
+Route::get('/coop_map/','ProductController@coop_map')->name('coop_map');
 Route::get('/partner/{id}','Partners@show')->name('partner');
 
 Route::post('/search/','ProductController@search')->name('search');

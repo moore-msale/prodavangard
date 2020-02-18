@@ -50,7 +50,7 @@
                           <p>
                             с 11.00 до 17.00 пн - пт,
                             <br>
-                            c 11.00 до 14.00 суббота
+                            c 09.00 до 12.00 сб
                           </p>
                         </div> 
 
@@ -307,7 +307,14 @@
 
 
           <div class="row" id="second_page">
+            <div class="col-12">
+              <p id="page_2_text_heading_first">История компании</p>
+              <p id="page_2_text_heading_first_sub">Более 10 лет на рынке Кыргызстана</p>
+              <br>
+              <br>
+            </div>
             <div class="col-lg-6 col-md-3">
+
               <div id="second_page_image_div">
                 <svg id="second_page_line">
                    <rect x=2 y=2 width=70 height=1 style=stroke:white />
@@ -321,7 +328,7 @@
             </div>
             <div class="col-lg-6 col-md-9" id="page_2_text_wrapper">
               <div>
-                <p id="page_2_text_heading_first">История компании</p>
+                <!-- <p id="page_2_text_heading_first">История компании</p> -->
                 <br>
 
 <!--                 <p id="page_2_text_heading">
@@ -337,7 +344,7 @@
                    За время существования компания смогла создать образ надежного и верного партнера, что позволяет нам заключать эксклюзивные договоры с производителями и увеличивать число клиентов по всему Кыргызстану.
                 </p> -->
                 <p id="about_us_first_sent" class="page_2_text_body">
-                  Как это приятно, когда есть своя история, даже пусть и не большая. Что могло произойти за эти 11 лет? Успехи и падения, правильные решения и ошибки, обретение новых и потери товарищей. И все же, как-то так:
+                  Как это приятно, когда есть своя история, даже пусть и не большая. Что могло произойти за эти 11 лет? Взлеты и падения, правильные решения и ошибки, обретение новых друзей и потери верных товарищей». И все же, как-то так:
                 </p>  
                 <p class="page_2_text_body">  
                   2009г. - заключение договора поставки с АО "ИСМА" и первая поставка.
@@ -457,22 +464,69 @@
 
       <div class="row" id="third_page">
           <img id="about_side" src="./img/side.png" class="img-fluid">
+          <img src="./img/static/about/about-map.png" class="img-fluid">
           <div class="col-12">
             <div class="row">
-              <div class="col-lg-4" id="about_french_col">
-                                <div class="third_page_text">
-                  <span class="about_num">5</span> 
-                  <br>
-                  <p><span class="about_card_title">Лучших производителей</span><br></p>
+              <div class="col-lg-4" about_col_wrapper_class>
+                <div class="third_page_text" id="about_french_col">
+                  <img src="../img/static/about/french.png">
+                  <div>
+                    <div class="about_num">4</div> 
+                    <br>
+                    <div class="about_card_title">Филиала</div><br>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-4 about_col_wrapper_class" >
+                <div class="third_page_text" id="about_years_col">
+                  <img src="../img/static/about/years.png">
+                  <div>
+                    <div class="about_num">10</div> 
+                    <br>
+                    <div class="about_card_title">Лет на рынке Кыргызстана</div><br>
+                  </div>
                 </div>
               </div>
-              <div class="col-lg-4" id="about_french_col"></div>
-              <div class="col-lg-4" id="about_french_col"></div>
+              <div class="col-lg-4 about_col_wrapper_class" id="about_company_col">
+                
+                <h1>О нашей компании</h1>
+                <p>ОсОО «Прод-Авангард Компани» была создана в 2009 г. Свою деятельность, на рынке строительных и расходных материалов, начала с 2010г.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 about_col_wrapper_class" >
+                <div class="third_page_text" id="about_positions_col">
+                  <img src="../img/static/about/positions.png">
+                  <div class="about_num">+560</div> 
+                  <br>
+                  <div class="about_card_title">Позиций продукции</div>
+                </div>
 
+              </div>
+              <div class="col-lg-4 about_col_wrapper_class" >
+                <div class="third_page_text" id="about_clients_col">
+                  <img src="../img/static/about/clients.png">
+                  <div class="about_num">+2000</div> 
+                  <br>
+                  <div class="about_card_title">Клиентов по Кыргызстану</div>
+                </div>
+              </div>
+              <div class="col-lg-4 about_col_wrapper_class">
+                <div class="third_page_text" id="about_manu_col">
+                  <img src="../img/static/about/manu.png">
+                  <div class="about_num">5</div> 
+                  <br>
+                  <div class="about_card_title">Надежных  производителей</div>
+                </div>
+
+              </div>
             </div>
           </div>
 
-{{--             <div class="row justify-content-md-center">
+
+
+<!-- {{--             <div class="row justify-content-md-center">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="third_page_text">
                   <div class="about_num">4</div>
@@ -510,7 +564,7 @@
                   <p><span class="about_card_title">Клиентов по Кыргызстану</span></p>
                 </div>
               </div>
-              </div> --}}
+              </div> --}} -->
 
           <div class="col-12">
             <p id="third_page_second_header" >Полный каталог всей поставляемой нами продукции</p>
@@ -786,7 +840,7 @@
          <div class="col-lg-6 col-md-8 col-sm-12" id="seventh_page_inner">
           <div id="seventh_page_card">
             <h1>Вы можете купить строительные материалы <br><span>оптом и в розницу</span></h1>
-            <p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+            
             <a href="{{ route('viewCatalogAll') }}"><button>Перейти в каталог</button></a>
           </div>
           
@@ -802,58 +856,63 @@
        </div>
        <div class="row" id="eighth_page">
          <div class="col-12" id="eighth_page_inner">
-
-
-            <div id="carousel_feedback" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="carousel_feedback_item" alt="First slide">
-                      <h1>Почему с нами выгодно работать</h1>
-                      <p>Мы никогда не будем грузить клиента минимальной партией, вынуждая его брать больше!
-                        За качество отвечает производитель, а он всегда на связи!
-                      </p>
-                  </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="eighth_page_inner_left_text">
+                  <h1>Почему с нами выгодно работать</h1>
+                  <p>Наша продукция продается на всех регионах КР. Мы уже открыли 4 филиала в регионах и не собираемся останавливаться</p>
                 </div>
-                <div class="carousel-item">
-                  <div class="carousel_feedback_item" alt="First slide">
-                      <h1>Почему с нами выгодно работать</h1>
-                      <p>Мы прилагаем все усилия, для того чтобы товар был всегда в наличии.
-                        Уделяем огромное значение стабильности и периодичности поставок клиентам.
-                      </p>
-                      <!-- <h5>Директор Осоо ´Кыргыз Алтын´</h5> -->
+              </div>
+              <div class="col-lg-8 benefits_block_right">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="benefits_block_right_element">
+                      <img src="./img/static/benefits/quality.png">
+                      <p>За качество отвечает производитель, а он всегда на связи!</p>
+                    </div>
+
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="carousel_feedback_item" alt="First slide">
-                      <h1>Почему с нами выгодно работать</h1>
-                      <p>Наши клиенты окружены заботой, вниманием и отсутствием каких-либо рисков.</p>
-                      <!-- <h5>Директор Осоо ´Кыргыз Алтын´</h5> -->
+                  <div class="col-lg-8">
+                    <div class="row">
+                      <div class="col-lg-6 benefits_block_right_element_col">
+                        <div class="benefits_block_right_element">
+                          <img src="./img/static/benefits/check.png">
+                          <p>Уделяем огромное значение стабильности и периодичности поставок клиентам</p>
+                        </div>  
+                      </div>
+                      <div class="col-lg-6 benefits_block_right_element_col">
+                        <div class="benefits_block_right_element">
+                          <img src="./img/static/benefits/group.png">
+                        <p>Наши клиенты окружены заботой, вниманием и отсутствием каких-либо рисков</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 benefits_block_right_element_col">
+                        <div class="benefits_block_right_element">
+                          <img src="./img/static/benefits/box1.png">
+                        <p>Мы прилагаем все усилия, для того чтобы товар был всегда в наличии.</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 benefits_block_right_element_col">
+                        <div class="benefits_block_right_element">
+                          <img src="./img/static/benefits/box2.png">
+                          <p>Мы никогда не будем грузить клиента минимальной партией, вынуждая его брать больше!</p>
+                      </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carousel_feedback" role="button" data-slide="prev">
-                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-                <img class="d-block" src="./img/left_arrow_slider.svg">
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel_feedback" role="button" data-slide="next">
-                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-                <img id="" class="d-block" src="./img/right_arrow_slider.svg">
-                <span class="sr-only">Next</span>
-              </a>
             </div>
 
-
-
-         </div>
-         <div id="eighth_page_bottom">
          </div>
        </div>
        <div class="row" id="nineth_page">
          <div class="col-12" id="nineth_page_inner">
           <div class="row">
             <div class="col-12">
-              <h1>Новости и полезные статьи</h1>
+              <h1>Новости и статьи</h1>
             </div>
           </div>
           <!-- <div class="col-12" id="catalog_elements_list_9"> -->
@@ -988,7 +1047,7 @@
                         <div class="last_page_contacts_time">
                           <div>
                             <img src="./img/clock.svg" class="img-fluid">
-                            <span id="time_last">с 11.00 до 17.00 понедельник - пятница<br> с 11.00 до 14.00 суббота</span>
+                            <span id="time_last">с 11.00 до 17.00 понедельник - пятница<br> с 09.00 до 12.00 суббота</span>
                           </div>
                         </div>
                       </div>
