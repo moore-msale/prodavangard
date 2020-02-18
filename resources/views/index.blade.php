@@ -997,3 +997,28 @@
       </div><!-- main div 2 -->
     </div> <!-- first main container -->
 @endsection
+@push('scripts')
+<script type="text/javascript">
+  function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 1 : -1;
+    var stepTime = Math.abs(Math.floor(duration / range));
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+}
+
+animateValue("about_positions_number", 0, 560, 3000);
+animateValue("about_clients_number", 0, 2000, 2000);
+animateValue("about_manu_number", 0, 5, 5000);
+animateValue("about_years_number", 0, 10, 5000);
+animateValue("about_french_number", 0, 4, 5000);
+</script>
+
+@endpush

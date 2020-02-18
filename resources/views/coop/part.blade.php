@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container-fluid partners_page" id="partners_container">
           <div class="row" id="partners_title_wrapper">
             <p id="partners_title">Наши партнеры</p>

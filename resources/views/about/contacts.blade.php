@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container" id="contacts_page_container">
 <div class="row">
   <div class="col-12">

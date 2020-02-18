@@ -751,7 +751,7 @@ body{
 	height: 679px;
 	padding-left: 155px;
 	padding-right: 155px;
-	margin-top: -2px;
+	margin-top: 200px;
 }
 #fourth_page_inner{
 	position: relative;
@@ -761,17 +761,18 @@ body{
 	margin-left: -1px;
 	margin-top: 130px;
 	position: absolute;
+	width: 90%;
 }
 #wood_description{
 	background-image: url("../img/wood_22.png");
 	width: 370px;
-	height:551px;
 	position: absolute;
 	/*margin-left: 755px;*/
 	right: 0;
 	margin-top:45px;
 	padding-top: 60px;
-	background-repeat: no-repeat;
+	padding-bottom: 3%;
+    background-repeat: round;
 }
 #fifth_page{
 	padding-left: 155px;
@@ -2041,6 +2042,11 @@ button:hover{
 .about_num_pre{
 	font-size: 30px;
     margin-right: 5%;
+}
+#carousel_gal img{
+	max-height: 300px;
+	width: auto!important;
+	margin:auto;
 }
 /**{
 	border: 1px solid red!important;

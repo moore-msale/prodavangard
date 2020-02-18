@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container" id="catalog_show_container">
   <div class="row">
 

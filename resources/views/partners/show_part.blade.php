@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container-fluid partners_page_container">
 <div class="row partners_first_block_wrapper" >
 	{{-- <img src="../img/static/partners/belg_img_main.png"> --}}

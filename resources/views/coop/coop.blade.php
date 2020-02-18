@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container" id="coop_page_container">
 <div id="coop_page_container_inner" class="row">
   <div class="col-12">

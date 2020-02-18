@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('content')
-@include('partials.header')
+@include('partials.header_dark')
 <div class="container" id="search_result_container">
   <div class="row">
     <div class="col"><h1 id="search_result_header">Резльтаты поиска</h1></div>
