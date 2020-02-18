@@ -470,8 +470,19 @@
               <div class="col-lg-4" about_col_wrapper_class>
                 <div class="third_page_text" id="about_french_col">
                   <img src="../img/static/about/french.png">
-                  <div>
-                    <div class="about_num">4</div> 
+                  <div class="third_page_text_inner_wrapper">
+                    <div class="about_num">
+                      <div class="about_num_inner">
+                      <span id="about_french_number">4</span>
+                      <ul class="dropdown">
+                      <li>г. Каракол</li>
+                      <li>г. Талас</li>
+                      <li>г. Ош</li>
+                      <li>г. Нарын</li>
+                      </ul>
+                      </div>
+                    </div> 
+
                     <br>
                     <div class="about_card_title">Филиала</div><br>
                   </div>
@@ -482,9 +493,9 @@
                 <div class="third_page_text" id="about_years_col">
                   <img src="../img/static/about/years.png">
                   <div>
-                    <div class="about_num">10</div> 
+                    <div class="about_num"><span class="about_num_pre">свыше</span><span id="about_years_number">10</span></div>
                     <br>
-                    <div class="about_card_title">Лет на рынке Кыргызстана</div><br>
+                    <div class="about_card_title">лет поставок, c 2009 по 2020 </div><br>
                   </div>
                 </div>
               </div>
@@ -498,7 +509,7 @@
               <div class="col-lg-4 about_col_wrapper_class" >
                 <div class="third_page_text" id="about_positions_col">
                   <img src="../img/static/about/positions.png">
-                  <div class="about_num">+560</div> 
+                  <div class="about_num"><span class="about_num_pre">свыше</span><span id="about_positions_number">560</span></div> 
                   <br>
                   <div class="about_card_title">Позиций продукции</div>
                 </div>
@@ -507,7 +518,7 @@
               <div class="col-lg-4 about_col_wrapper_class" >
                 <div class="third_page_text" id="about_clients_col">
                   <img src="../img/static/about/clients.png">
-                  <div class="about_num">+2000</div> 
+                  <div class="about_num"><span class="about_num_pre">свыше</span><span id="about_clients_number">2000</span></div> 
                   <br>
                   <div class="about_card_title">Клиентов по Кыргызстану</div>
                 </div>
@@ -515,7 +526,18 @@
               <div class="col-lg-4 about_col_wrapper_class">
                 <div class="third_page_text" id="about_manu_col">
                   <img src="../img/static/about/manu.png">
-                  <div class="about_num">5</div> 
+                  <div class="about_num">
+                    <div class="about_num_inner">
+                    <span id="about_manu_number">5</span>
+                      <ul class="dropdown">
+                      <li>ТИЗ «Томский инструмент»</li>
+                      <li>СпецЭлектрод</li>
+                      <li>Белгородский Абразивынй Завод</li>
+                      <li>ISMAFLEX «ИСМА»</li>
+                      <li>Синтез</li>
+                      </ul>
+                    </div>
+                    </div> 
                   <br>
                   <div class="about_card_title">Надежных  производителей</div>
                 </div>
@@ -525,46 +547,6 @@
           </div>
 
 
-
-<!-- {{--             <div class="row justify-content-md-center">
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <div class="about_num">4</div>
-                  <p><span class="about_card_title">Филиала</span><br></p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">5</span> 
-                  <br>
-                  <p><span class="about_card_title">Лучших производителей</span><br></p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">11</span>
-                  <br>
-                  <p><span class="about_card_title">Лет поставок</span><br></p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">+ 560</span>
-                  <p><span class="about_card_title">Позиций продукции</span></p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="third_page_text">
-                  <span class="about_num">+ 2 000</span>
-                  <br>
-                  <p><span class="about_card_title">Клиентов по Кыргызстану</span></p>
-                </div>
-              </div>
-              </div> --}} -->
 
           <div class="col-12">
             <p id="third_page_second_header" >Полный каталог всей поставляемой нами продукции</p>
@@ -614,91 +596,6 @@
                     </div>	
 					@endif
 					@endforeach
-
-<!-- 
-                    <div class="carousel-item active">
-                      <div class="col-lg-3 col-md-6">
-                                <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                                </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                              <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                              </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                                        <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                                </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                                <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                                </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                                <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                                </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                                <div class="catalog_element_wrapper">
-                                  <div class="catalog_element">
-                                    <div>
-                                      <img src="./img/image 34.png" class="img-fluid">
-                                      <p>Круги лепестковые торцевые</p>
-                                      <button>Смотреть</button>
-                                    </div>
-                                  </div>
-                                </div>
-                      </div>
-                    </div>
- -->
-
-
-
-
                   </div>
                   <a class="carousel-control-prev w-auto" href="#myCarousel" role="button" data-slide="prev">
                     <span aria-hidden="true">
@@ -798,8 +695,15 @@
           <div class="col-12" id="full_metal_wrapper">
               <div id="metal_description">
                 <h1>Для обработки металла</h1>
-                <img src="./img/arrow.png" class="img-fluid">
-                  <p>отрезные круги<br> шлифовальные круги<br> точильные сверла<br> метчики<br> плашки<br> электроды</p>
+                {{-- <img src="./img/arrow.png" class="img-fluid"> --}}
+                  <p>
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/1">отрезные круги</a></span></span><br>
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/2">шлифовальные круги</a></span></span><br> 
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/13">точильные сверла</a></span></span><br> 
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/5">метчики</a></span></span><br>
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/6">плашки</a></span></span><br> 
+                   <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/7">электроды</a></span></span></p>
+
                 <a href="{{ route('viewCatalogAll') }}"><button>Смотреть каталог</button></a>
               </div>
           </div>    
@@ -809,8 +713,17 @@
            <img src="./img/wood_n.png" class="img-fluid">
            <div id="wood_description">
                 <h1>Для обработки дерева</h1>
-                <img src="./img/arrow.png" class="img-fluid">
-                  <p>шлифовальные листы<br> рулоны шлифовальные<br> бобины шлифовальные<br> диски шлифовальные самозакрепляющиеся<br> ленты бесконечные<br> круги лепестковые с оправкой</p>
+                {{-- <img src="./img/arrow.png" class="img-fluid"> --}}
+                  <p>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/12">шлифовальные листы</a></span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/11">рулоны шлифовальные</a></span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/11">бобины шлифовальные</a></span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/8">диски шлифовальные</span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item">самозакрепляющиеся</a></span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/9">ленты бесконечные</a></span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/10">круги лепестковые </span></span><br>
+                    <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item">с оправкой</a></p></span></span><br>
+
                  <a href="{{ route('viewCatalogAll') }}"><button id="wood_description_btn">Смотреть каталог</button></a>
            </div>
          </div>
@@ -821,8 +734,13 @@
             <img id="paint_main_image" src="./img/paint_dark.png" class="img-fluid">
             <div id="paint_description">
                   <h1>Для малярных работ</h1>
-                  <img src="./img/arrow.png" class="img-fluid">
-                    <p>растворители<br> листы шлифовальные<br> диски шлифовальные<br> самозакрепляющиеся</p>
+                  {{-- <img src="./img/arrow.png" class="img-fluid"> --}}
+                    <p>
+                      <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/4">растворители</a></span></span><br>
+                      <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/12">листы шлифовальные</a></span></span><br>
+                      <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item"><a href="/viewSubCategory/8">диски шлифовальные</span></span><br>
+                      <span><img src="./img/arrow.png" class="img-fluid"><span class="buy_list_item">самозакрепляющиеся</a></span></span><br>
+                    </p>
                    <a href="{{ route('viewCatalogAll') }}"><button>Смотреть каталог</button></a>
             </div>
 
