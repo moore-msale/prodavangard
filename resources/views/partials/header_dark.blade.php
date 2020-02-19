@@ -21,7 +21,7 @@
            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="{{ route('partner',['id' => 3]) }}">ТИЗ «Томский инструмент»</a></li>
                     <li><a class="dropdown-item" href="{{ route('partner',['id' => 4]) }}">СпецЭлектрод</a></li>
-                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 1]) }}">Белгородский Абразивынй Завод</a></li>
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 1]) }}">Белгородский Абразивный Завод</a></li>
                     <li><a class="dropdown-item" href="{{ route('partner',['id' => 2]) }}">ISMAFLEX «ИСМА»</a></li>
                     <li><a class="dropdown-item" href="{{ route('partner',['id' => 5]) }}">Синтез</a></li>
            </ul>         
