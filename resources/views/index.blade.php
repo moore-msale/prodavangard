@@ -990,7 +990,7 @@
            </div>
          <div class="row" id="footer">
              <div class="col-12">
-               <h1>Прод-Авангард</h1>
+               <h1>Прод-Авангард Компани</h1>
                <h2>copyright 2019</h2>
              </div>
         </div>
