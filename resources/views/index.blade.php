@@ -322,8 +322,8 @@
                 <div>
                   <p id="what_we_do">Что мы делаем?</p>
                 </div>
-                <img id="drill_overlay_1" src="./img/page_2.png" class="img-fluid" alt="Responsive image">
-                <img id="drill_overlay_2" src="./img/page_2_white.png" class="img-fluid" alt="Responsive image">
+                <!-- <img id="drill_overlay_1" src="./img/page_2.png" class="img-fluid" alt="Responsive image"> -->
+                <img id="drill_overlay_2" src="./img/static/history_left.png" class="img-fluid" alt="Responsive image">
               </div>
             </div>
             <div class="col-lg-6 col-md-9" id="page_2_text_wrapper">
@@ -762,6 +762,11 @@
 
 
        <div class="row" id="seventh_page">
+
+         <div class="col-lg-6 col-md-4 col-sm-6" id="seventh_page_mix_all">
+           <!-- <img src="./img/spets.jpg" class="img-fluid"> -->
+         </div>
+
          <div class="col-lg-6 col-md-8 col-sm-12" id="seventh_page_inner">
           <div id="seventh_page_card">
             <h1>Вы можете купить строительные материалы <br><span>оптом и в розницу</span></h1>
@@ -771,14 +776,10 @@
           
           
          </div>
-         <div class="col-lg-3 col-md-4 col-sm-6" id="seventh_page_img_2">
-           <img src="./img/baz.png" class="img-fluid">
-         </div>
-         <div class="col-lg-3 col-md-4 col-sm-6" id="seventh_page_img_3">
-           <img src="./img/spets.jpg" class="img-fluid">
-         </div>
-         
+        
        </div>
+
+
        <div class="row" id="eighth_page">
          <div class="col-12" id="eighth_page_inner">
             <div class="row">

@@ -442,9 +442,9 @@ body{
 	width: 80%;
 }
 #drill_overlay_2{
-	max-height: 479px;
-	margin-top: -420px;
-	margin-left: 50px;
+	/*max-height: 479px;*/
+	margin-top: -10px;
+	/*margin-left: 50px;*/
 	opacity: .5;
 }
 #about_us_first_sent{
@@ -502,14 +502,15 @@ body{
 	text-transform: uppercase;
 	position: absolute;
 	max-width: 259px;
-	margin-top: 137px;
+	margin-left: 100px;
+    margin-top: 100px;
 	opacity: 1;
     text-shadow: -2px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 #second_page_line{
 	position: absolute;
-	margin-left: -100px;
-    margin-top: 162px;
+	/*margin-left: -100px;*/
+    margin-top: 130px;
 }
 
 #third_page{
@@ -880,8 +881,14 @@ body{
 #seventh_page_inner{
 	background-image: url("../img/seven_3.png");
 	background-repeat: no-repeat;
-	margin-top: 60px; 
+    background-position-y: center;
 }
+#seventh_page_mix_all{
+	background-image: url("../img/static/mix_all.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
 #seventh_page_img_2 img{
 	width: 115%;
 	max-width: 115%;
@@ -1425,7 +1432,7 @@ button:hover{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #coop_page_container{
 	background-color: white;
@@ -1647,7 +1654,8 @@ button:hover{
 	background-image: url("../img/page1_texture.png");
 }
 #seventh_page{
-	background-image: url("../img/page1_texture.png");	
+	background-image: url("../img/page1_texture.png");
+	padding-bottom: 4%;
 }
 #eighth_page{
 	background-image: url("../img/8_page.png");
@@ -1774,6 +1782,7 @@ button:hover{
 .partners_page_container{
 	max-width: 1600px;
 	margin:auto;
+	padding-top: 4.5%;
 }
 .partners_first_block_wrapper img{
 	width: 100%;
@@ -2090,6 +2099,26 @@ ul {
 }
 #page_2_text_wrapper{
 	margin-top: -40px;
+}
+.dropdown-menu{
+	display: none;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+#vendor_link{
+	position: relative;
+}
+#vendor_link > ul{
+	position: absolute;
+	top: 50%;
+}
+.dropdown-item{
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1;
 }
 /*.carousel-indicators li{
 	background-color: rgba(45, 41, 41, 0.5);

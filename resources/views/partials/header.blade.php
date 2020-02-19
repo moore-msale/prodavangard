@@ -21,7 +21,15 @@
       <a class="nav-link" href="{{ route('viewCatalogAll') }}">Каталог</a>
     </li>
     <li id="vendor_link" class="nav-item">
-      <a class="nav-link" href="{{ route('part') }}">Производители</a>
+      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Производители</a>
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 3]) }}">ТИЗ «Томский инструмент»</a></li>
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 4]) }}">СпецЭлектрод</a></li>
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 1]) }}">Белгородский Абразивынй Завод</a></li>
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 2]) }}">ISMAFLEX «ИСМА»</a></li>
+                    <li><a class="dropdown-item" href="{{ route('partner',['id' => 5]) }}">Синтез</a></li>
+           </ul>         
+      <!-- <a class="nav-link" href="{{ route('part') }}">Производители</a> -->
     </li>
     <li id="news_link" class="nav-item">
       <a class="nav-link" href="#">Новости</a>
