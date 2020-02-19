@@ -47,7 +47,7 @@ body{
     padding-right: 55px!important;
     padding-left: 55px!important;
     /*background-color: #000A1D;*/
-    padding-bottom: 20px!important;
+    padding-bottom: 0!important;
     max-width: 1600px;
     margin: auto;
 }
@@ -1358,7 +1358,7 @@ button:hover{
 	color: #FFFFFF;
 }
 #logo_span{
-	margin-top:30px;
+	margin-top:10px;
 }
 #logo_span img{
 	width: 90px;
@@ -1368,7 +1368,7 @@ button:hover{
 }
    
 .navbar-collapse li{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 #search_icon{
 	margin-top:-12px;
@@ -1990,6 +1990,7 @@ button:hover{
     background-color: #000A1D;
     position: relative;
     z-index: 1;
+    padding: 1%;
 }
 #coop_map{
 	padding-left:3%;
@@ -2082,9 +2083,9 @@ ul {
 #about_manu_col > div.about_num > div{
 	padding-bottom: 4%;
 }
-.carousel-indicators li{
+/*.carousel-indicators li{
 	background-color: rgba(45, 41, 41, 0.5);
-}
+}*/
 /**{
 	border: 1px solid red!important;
 }*/
