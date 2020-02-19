@@ -245,13 +245,14 @@ body{
 	margin-bottom: 36px;
 	/*max-width: 471px;*/
 	/*padding-right:130px;*/
-	text-align: justify;
+	/*text-align: justify;*/
 }
 .page_1_text .page_1_text_numero_10{
-	font-size: 170px;
+	font-size: 100px;
 	color: #4aa0f0;
 	font-weight: bold;
 	text-shadow: -15px -1px 0 #0C3D69, 1px -1px 0 #0C3D69, -1px 1px 0 #0C3D69, 1px 1px 0 #0C3D69;
+	margin: 10px;
 }
 .page_1_text .page_1_text_dist{
 	color: #4aa0f0;
