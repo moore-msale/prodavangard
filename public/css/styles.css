@@ -1755,6 +1755,7 @@ button:hover{
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 1px solid white;
+    margin-top: 5%;
 }
 .about_nums_span{
 	font-size: 20px;
@@ -2083,6 +2084,12 @@ ul {
 }
 #about_manu_col > div.about_num > div{
 	padding-bottom: 4%;
+}
+#partners_row_wrapper{
+	margin-bottom: 70px;
+}
+#page_2_text_wrapper{
+	margin-top: -40px;
 }
 /*.carousel-indicators li{
 	background-color: rgba(45, 41, 41, 0.5);

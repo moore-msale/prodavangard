@@ -411,7 +411,7 @@
           <div class="row" id="partners_title_wrapper">
             <p id="partners_title">Наши партнеры</p>
           </div>
-          <div class="row">
+          <div class="row" id="partners_row_wrapper">
             <div class="col partner_class_item">
               <a href="{{ route('partner',['id' => 3]) }}"><div class="partner_img_wrapper" id="partner_tiz">
                 <img src="../img/logo_tiz.gif">
