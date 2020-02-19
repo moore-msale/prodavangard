@@ -1790,6 +1790,7 @@ button:hover{
 .partners_first_block_wrapper{
 	position: relative;
 	margin-bottom: 5%;
+	margin-top: 5%;
 }
 .partners_first_block_content{
 	display: flex;
