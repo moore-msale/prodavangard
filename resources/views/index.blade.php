@@ -20,9 +20,9 @@
                   <div class="col-lg-6 col-md-12">
                     <div class="row">
                       <div class="col-12">
-                        <p class="page_1_text">Официальный дистрибьютор</p>
+                        <!-- <p class="page_1_text">Официальный дистрибьютор</p> -->
                         <p id="page_1_text_id_no_top" class="page_1_text">
-                        <span>10</span> лет поставляем Российские расходные строительные материалы на рынок Кыргызстана
+                        Более<span class="page_1_text_numero_10">10</span> лет - <span class="page_1_text_dist">Официальный дистрибьютор</span> компаний ТИЗ, БАЗ, ИСМА, Спецэлектрод и Синтез на рынке российских строительных расходных материалов в Кыргызстане
                         </p>            
                       </div>
                     </div>
