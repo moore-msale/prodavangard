@@ -64,11 +64,11 @@
               </div>
               <div class="carousel-item">
                 <div class="row main_carousel_item_wrapper" id="second_page_slide">
-                  <div class="col-lg-6 col-md-12">
+                  <div class="col-lg-8 col-md-8">
                     <div class="slide_part_name_logo">
                       <span><img src="./img/static/belgorod_logo.png"></span>
                       <div>
-                      <h1 class="slide_part_name">Белгородский абразивный завод</h1>
+                      <h1 class="slide_part_name">Белгородский <br>абразивный завод</h1>
                       <p>Гибкие аброзивные инструменты</p>
                       </div>
                     </div>
@@ -96,7 +96,7 @@
                    </div> 
                   </div>
                   
-                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <div class="col-lg-4 col-md-4 main_slider_image">
                     <img src="./img/static/block1_slide2_img.png">
                   </div>
                 </div>
@@ -106,7 +106,7 @@
               <div class="carousel-item">
 
               <div class="row main_carousel_item_wrapper" id="third_page_slide">
-                                  <div class="col-lg-6 col-md-12">
+                                  <div class="col-lg-8 col-md-8">
                     <div class="slide_part_name_logo">
                       <span><img src="./img/static/isma_logo.png"></span>
                       <div>
@@ -138,7 +138,7 @@
                    </div> 
                   </div>
                   
-                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <div class="col-lg-4 col-md-4 main_slider_image">
                     <img src="./img/static/block1_slide3_img.png">
                   </div>
 
@@ -148,11 +148,11 @@
               <div class="carousel-item">
 
               <div class="row main_carousel_item_wrapper" id="fourth_page_slide">
-                                  <div class="col-lg-6 col-md-12">
+                                  <div class="col-lg-8 col-md-8">
                     <div class="slide_part_name_logo">
                       <span><img src="./img/static/tiz_logo.png"></span>
                       <div>
-                      <h1 class="slide_part_name">Группа компаний “Томский инструмент”</h1>
+                      <h1 class="slide_part_name">Группа компаний <br>“Томский инструмент”</h1>
                       <p>Металлорежущие и дереворежущие инструменты</p>
                       </div>
                     </div>
@@ -172,7 +172,7 @@
                    </div> 
                   </div>
                   
-                    <div class="col-lg-6 col-md-12 main_slider_image">
+                    <div class="col-lg-4 col-md-4 main_slider_image">
                     <img src="./img/static/block1_slide4_img.png">
                   </div>
 
@@ -373,7 +373,7 @@
               </div>
 
             </div>
-{{--             <div class="col-12">
+<!--              <div class="col-12">
               <div id="page_2_partners">
                 <p id="page_2_partners_heading">Наши партнеры</p>
                 <a href="http://www.tiz.ru/">
@@ -402,28 +402,28 @@
                 </span>
                 </a>
               </div>
-            </div> --}}
+            </div> -->
           </div>
         </div> <!-- second container -->
 
 
-{{--         <div class="container-fluid" id="partners_container">
+         <div class="container-fluid" id="partners_container">
           <div class="row" id="partners_title_wrapper">
             <p id="partners_title">Наши партнеры</p>
           </div>
           <div class="row">
             <div class="col partner_class_item">
-              <a href="http://www.tiz.ru/"><div class="partner_img_wrapper" id="partner_tiz">
+              <a href="{{ route('partner',['id' => 3]) }}"><div class="partner_img_wrapper" id="partner_tiz">
                 <img src="../img/logo_tiz.gif">
               </div></a>
               <div class="partner_text_wrapper">
-              <h1><a href="http://www.tiz.ru/">ТИЗ</a></h1>
+              <h1><a href="{{ route('partner',['id' => 3]) }}">ТИЗ</a></h1>
               <p>Наше предприятие осуществляет свою деятельность на рынке лакокрасочных материалов с 1998 года.  За много лет мы заработали репутацию
               </p>
             </div>
             </div>
             <div class="col partner_class_item">
-              <a href="http://www.spetselectrode.ru/"><div class="partner_img_wrapper" id="partner_spets">
+              <a href="{{ route('partner',['id' => 4]) }}"><div class="partner_img_wrapper" id="partner_spets">
                 <img src="../img/logo_spets.png">
               </div></a>
               <div class="partner_text_wrapper"><h1><a href="http://www.spetselectrode.ru/">Спецэлектрод</a></h1>
@@ -431,7 +431,7 @@
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <a href="https://www.belabraziv.ru/"><div class="partner_img_wrapper" id="partner_belab">
+              <a href="{{ route('partner',['id' => 1]) }}"><div class="partner_img_wrapper" id="partner_belab">
                 <img src="../img/logo_belab.png">
               </div></a>
               <div class="partner_text_wrapper"><h1><a href="https://www.belabraziv.ru/">БАЗ</a></h1>
@@ -439,7 +439,7 @@
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <a href="http://ismaflex.ru/"><div class="partner_img_wrapper" id="partner_isma">
+              <a href="{{ route('partner',['id' => 2]) }}"><div class="partner_img_wrapper" id="partner_isma">
                 <img src="../img/logo_isma.png">
               </div></a>
              <div class="partner_text_wrapper"><h1><a href="http://ismaflex.ru/">ИСМА</a></h1>
@@ -447,7 +447,7 @@
               </p></div>
             </div>
             <div class="col partner_class_item">
-              <a href="http://www.td-sintez.ru/"><div class="partner_img_wrapper" id="partner_sintez">
+              <a href="{{ route('partner',['id' => 5]) }}"><div class="partner_img_wrapper" id="partner_sintez">
                 <img src="../img/logo_sintez.png">
               </div></a>
              <div class="partner_text_wrapper"><h1><a href="http://www.td-sintez.ru/">ТД Синтез</a></h1>
@@ -457,7 +457,7 @@
           </div>
 
 
-        </div> --}}
+        </div>
       </div><!-- main row -->
       <div id="main_div_2" class="container-fluid">
 
@@ -493,9 +493,16 @@
                 <div class="third_page_text" id="about_years_col">
                   <img src="../img/static/about/years.png">
                   <div>
-                    <div class="about_num"><span class="about_num_pre">свыше</span><span id="about_years_number">10</span></div>
+                    <div class="about_num">
+                      <div class="about_num_inner">
+                      <span class="about_num_pre">свыше</span><span id="about_years_number">10</span>
+                      <div class="dropdown">
+                        с 2009 по 2020
+                      </div>
+                      </div>
+                    </div>
                     <br>
-                    <div class="about_card_title">лет поставок, c 2009 по 2020 </div><br>
+                    <div class="about_card_title">лет поставок</div><br>
                   </div>
                 </div>
               </div>
@@ -983,7 +990,7 @@
            </div>
          <div class="row" id="footer">
              <div class="col-12">
-               <h1>prodAvangard</h1>
+               <h1>Прод-Авангард</h1>
                <h2>copyright 2019</h2>
              </div>
         </div>

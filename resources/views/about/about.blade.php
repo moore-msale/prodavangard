@@ -66,7 +66,7 @@
     <div class="col-12 about_text_wrapper">
       <p class="about_text_p">
         Наша продукция продается во всех регионах Кыргызстана. Мы уже открыли <span class="about_nums_span"> 4</span> филиала и не собираемся останавливаться!<br>
-        <span class="about_nums_span">5</span> - лучших надежных расходных материалов, кто действительно производит в России<br>
+        <span class="about_nums_span">5</span> - надежных расходных материалов, кто действительно производит в России<br>
         <span class="about_nums_span">11</span> - лет поставок расходных материалов для инструментов на территорию Кыргызстана<br>
         <span class="about_nums_span">560</span> - позиций продукции<br>
         <span class="about_nums_span">2000</span> - клиентов по Кыргызстану<br>

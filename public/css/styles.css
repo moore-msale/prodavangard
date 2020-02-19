@@ -372,7 +372,7 @@ body{
 #second_page{
 	/*max-height: 867px;*/
 	/*max-height: 736px;*/
-	padding-top: 200px;
+	padding-top: 100px;
 	margin-bottom: 5%;
 }
 #page_2_text_heading_first{
@@ -400,7 +400,7 @@ body{
     font-size: 18px;
     line-height: 120%;
     color: #FFFFFF;
-    margin-left: 20px;
+    margin-bottom: 70px;
     text-align: center;
 }
 #page_2_text_heading{
@@ -1836,9 +1836,9 @@ button:hover{
 	position: absolute;
     z-index: 999;
     min-width: 100%;
-    width: 350px;
+    width: 170px;
     padding: 20%;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     line-height: 1.5;
 }
@@ -1848,6 +1848,9 @@ button:hover{
 }
 .about_num_inner:hover .dropdown{
         display: block;	/* Display the dropdown */
+}
+#about_manu_col .dropdown{
+	width: 350px;
 }
 /*#about_french_col{
 	background-image: url("../img/static/about/french.png");
@@ -1887,8 +1890,8 @@ button:hover{
 	font-size: 70px;
 	line-height: 110%;
 	color: #0C3D69;
-	padding-top: 40%;
-	padding-left: 15%;
+	padding-top: 35%;
+	padding-left: 10%;
 }
 
 #third_page > div:nth-child(3){
@@ -1901,7 +1904,7 @@ button:hover{
 	right: 0;
 }
 .about_col_wrapper_class{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 #about_company_col h1{
 	font-family: Proxima Nova;
@@ -2040,13 +2043,37 @@ button:hover{
 	opacity: 1;
 }
 .about_num_pre{
-	font-size: 30px;
+	font-size: 25px;
     margin-right: 5%;
 }
 #carousel_gal img{
 	max-height: 300px;
 	width: auto!important;
 	margin:auto;
+}
+#carousel_main_page > a.carousel-control-next,#carousel_main_page > a.carousel-control-prev{
+	width:5%;
+}
+ul {
+    list-style: circle;
+}
+.dropdown li{
+	margin-left: 10%;
+}
+#about_years_col{
+	margin-top:19;
+}
+#about_years_col > div > div.about_num{
+	padding-top: 25%;
+}
+#about_french_col > div > div.about_num{
+	padding-top: 45%;
+}
+#about_years_col > div > div.about_num > div{
+	margin-top: 15%;
+}
+#about_manu_col > div.about_num > div{
+	padding-bottom: 4%;
 }
 /**{
 	border: 1px solid red!important;
