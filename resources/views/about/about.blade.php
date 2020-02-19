@@ -92,10 +92,10 @@
           <li data-target="#carousel_gal" data-slide-to="2"></li>
           <li data-target="#carousel_gal" data-slide-to="3"></li>
           <li data-target="#carousel_gal" data-slide-to="4"></li>
-          <li data-target="#carousel_gal" data-slide-to="5"></li>
+<!--           <li data-target="#carousel_gal" data-slide-to="5"></li>
           <li data-target="#carousel_gal" data-slide-to="6"></li>
           <li data-target="#carousel_gal" data-slide-to="7"></li>
-          <li data-target="#carousel_gal" data-slide-to="8"></li>
+          <li data-target="#carousel_gal" data-slide-to="8"></li> -->
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -104,21 +104,21 @@
           <div class="carousel-item">
             <img src="../img/static/gallery/gal_2.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+<!--           <div class="carousel-item">
             <img src="../img/static/gallery/gal_3.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
+          </div> -->
+<!--           <div class="carousel-item">
             <img src="../img/static/gallery/gal_4.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="../img/static/gallery/gal_5.jpg" class="d-block w-100" alt="...">
-          </div>
+          </div> -->
           <div class="carousel-item">
             <img src="../img/static/gallery/gal_6.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
+<!--           <div class="carousel-item">
             <img src="../img/static/gallery/gal_7.jpg" class="d-block w-100" alt="...">
-          </div>
+          </div> -->
           <div class="carousel-item">
             <img src="../img/static/gallery/gal_8.jpg" class="d-block w-100" alt="...">
           </div>
