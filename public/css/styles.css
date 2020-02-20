@@ -758,6 +758,7 @@ body{
 	padding-left: 155px;
 	padding-right: 155px;
 	margin-top: 200px;
+	margin-top: 70px;
 }
 #fourth_page_inner{
 	position: relative;
@@ -783,6 +784,7 @@ body{
 #fifth_page{
 	padding-left: 155px;
     padding-right: 55px;
+    padding-bottom: 100px;
 }
 #fifth_page_inner{
 	position: relative;
@@ -881,13 +883,15 @@ body{
 #seventh_page_inner{
 	background-image: url("../img/seven_3.png");
 	background-repeat: no-repeat;
-    background-position-y: center;
+    /*background-position-y: center;*/
     background-size: contain;
+    max-height: 543px;
 }
 #seventh_page_mix_all{
 	background-image: url("../img/static/mix_all.png");
     background-repeat: no-repeat;
     background-position-x: right;
+    max-height: 543px;
 }
 
 #seventh_page_img_2 img{
