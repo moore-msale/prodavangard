@@ -274,7 +274,7 @@ body{
     color: white!important;
 }
 #page_1_text_id_no_top{
-	padding-top:25%;
+	padding-top:29.5%;
 }
 .navbar-nav{
 	/*margin-top: 39px;*/
@@ -882,6 +882,7 @@ body{
 	background-image: url("../img/seven_3.png");
 	background-repeat: no-repeat;
     background-position-y: center;
+    background-size: contain;
 }
 #seventh_page_mix_all{
 	background-image: url("../img/static/mix_all.png");
@@ -2121,6 +2122,9 @@ ul {
 	font-size: 16px;
 	line-height: 1;
 }
+#fourth_page_slide > div.col-lg-8.col-md-8 > div.slide_part_name_logo{
+	margin-bottom: 9.4%;
+}
 /*.carousel-indicators li{
 	background-color: rgba(45, 41, 41, 0.5);
 }*/
@@ -2129,7 +2133,15 @@ ul {
 }*/
 /*///////////////////////////////////////*/
 /*ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+
 /* medium - display 2  */
+@media (max-width: 1200px) {
+	#second_page_slide > div.col-lg-8.col-md-8 > div.slide_part_name_logo{
+		margin-top: 18.9%;
+	}
+}
+
+
 @media (min-width: 768px) {
 
   #myCarousel .carousel-inner .carousel-item-right.active,
